@@ -1,0 +1,70 @@
+/* Styles for carousel */
+.carousel-item > div {
+   -webkit-user-select: none;
+   -moz-user-select: -moz-none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.carousel {
+   height: 100vh;
+}
+
+.carousel div {
+   width: 100vw;
+   height: 100vh;
+}
+
+.carousel1{
+   background-image: url('../images/slideshow/1.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.carousel2 {
+   background-image: url('../images/slideshow/2.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.carousel3 {
+   background-image: url('../images/slideshow/3.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.carousel4 {
+   background-image: url('../images/slideshow/4.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.caption {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   z-index: 10;
+}
+
+.caption > div {
+   max-width: 960px;
+   margin: 0 auto;
+   height: initial;
+}
+
+p.carousel-text-head {
+   position: relative;
+   font-size: 70px !important;
+   font-family: Cambria !important;
+   line-height: 1px;
+}
+
+p.carousel-text-content {
+   position: relative;
+   font-size: 17px !important;
+   font-family: Cambria !important;
+}

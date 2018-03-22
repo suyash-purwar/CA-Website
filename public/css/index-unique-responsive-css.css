@@ -1,0 +1,16 @@
+@media only screen and (max-width: 922px) {
+   p.carousel-text-head {
+      line-height: normal;
+      font-size: 55px !important;
+   }
+
+   .caption > div {
+      padding: 0 10px;
+   }
+}
+
+@media only screen and (max-width: 460px) {
+   p.carousel-text-head {
+      font-size: 45px !important;
+   }
+}

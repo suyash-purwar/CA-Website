@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>LT & ASSOCIATES</title>
+   <meta charset = "utf-8">
+   <style type = "text/css">
+      /* Styles for preloader */
+
+      .overlay {
+        z-index: 9999;
+        position: fixed;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+   </style>
+
+   <script>
+    // Script for loader
+    window.addEventListener('load', () => {
+        document.getElementById('loader-overlay').style.display = "none";
+    });
+   </script>
+   
+    <link rel = "stylesheet" href = "../externals/materialize/css/materialize.css">
+    <link rel = "stylesheet" href = "../css/global.css">
+    <link rel = "stylesheet" href = "../css/nav.css">
+    <link rel = "stylesheet" href = "../css/index-unique-css.css">
+    <link rel = "stylesheet" href = "../css/index-unique-responsive-css.css">
+    <link rel = "stylesheet" href = "../css/footer.css">
+   
+    <!--[if lt IE 9]>
+	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Pre Loader -->
+   <div class = "overlay" id = "loader-overlay">
+      <div class = "preloader-wrapper big active">
+         <div class = "spinner-layer" style = "border-color: #1A2A5A;">
+            <div class = "circle-clipper left">
+               <div class = "circle"></div>
+            </div>
+
+            <div class = "gap-patch">
+               <div class = "circle"></div>
+            </div>
+
+            <div class = "circle-clipper right">
+               <div class = "circle"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Carousel -->
+   <!-- This carousel is responsive -->
+    <div class = "carousel carousel-slider center" data-indicators = "true">
+        <div class = "carousel-item carousel1">
+            <div class="caption valign-wrapper">
+                <div>
+                    <p class = "carousel-text-head">Lorem Ipsum</p>
+                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "carousel-item center-align">
+            <div class="caption center valign-wrapper carousel2">
+                <div>
+                    <p class = "carousel-text-head">Lorem Ipsum</p>
+                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "carousel-item">
+            <div class="caption valign-wrapper carousel3">
+                <div>
+                    <p class = "carousel-text-head">Lorem Ipsum</p>
+                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "carousel-item">
+            <div class="caption valign-wrapper carousel4">
+                <div>
+                    <p class = "carousel-text-head">Lorem Ipsum</p>
+                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src = "../externals/jquery/jquery-3.2.1.js"></script>
+   <script src = "../externals/materialize/js/materialize.min.js"></script>
+   <script src = "../externals/scrollreveal/dist/scrollreveal.min.js"></script>
+   <script src = "../js/indexpage.js"></script>
+</body>
+</html>

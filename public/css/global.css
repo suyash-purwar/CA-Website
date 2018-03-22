@@ -1,0 +1,24 @@
+/* This is the css which is common in each page of a website */
+/* Changes in this css files will show effects in each page of a website */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+* {
+   font-size: 18px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@keyframes left {
+   from {
+      left: -50px;
+   } 
+
+   to {
+      left: 0px;
+   }
+}

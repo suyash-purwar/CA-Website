@@ -1,0 +1,26 @@
+#large-screen-nav {
+   background-color: transparent;
+   position: fixed;
+   z-index: 5;
+   /* border-bottom: 1px dashed white; */
+   box-shadow: none !important;
+   padding: 0 10px;
+}
+
+.firm-name {
+   color: white;
+   font-family: 'Raleway', 'Quicksand';
+   font-size: 35px;
+}
+
+li a {
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+   font-size: 19px;
+}
+
+li a:hover {
+   background: transparent !important;
+   border-bottom: 1px dotted white;
+}
+

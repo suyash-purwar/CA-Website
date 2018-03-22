@@ -7,6 +7,8 @@
 }
 
 .carousel {
+   z-index: 1;
+   position: absolute;
    height: 100vh;
 }
 
@@ -16,31 +18,38 @@
 }
 
 .carousel1{
-   background-image: url('../images/slideshow/1.png');
+   background-image: url('../images/slideshow/a.png');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .carousel2 {
-   background-image: url('../images/slideshow/2.png');
+   background-image: url('../images/slideshow/b.png');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .carousel3 {
-   background-image: url('../images/slideshow/3.png');
+   background-image: url('../images/slideshow/c.png');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .carousel4 {
-   background-image: url('../images/slideshow/4.png');
+   background-image: url('../images/slideshow/d.png');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+hr.carousel_hr {
+   border-width: 1px;
+   width:120px;
+   line-height: 1px;
+   border-color: white;
 }
 
 .caption {
@@ -57,14 +66,16 @@
 }
 
 .carousel-text-head {
+   color: white;
    position: relative;
    font-size: 70px !important;
-   font-family: Cambria !important;
+   font-family: 'Quicksand' !important;
    line-height: 1px;
 }
 
 .carousel-text-content {
+   color: white;
    position: relative;
-   font-size: 17px !important;
-   font-family: Cambria !important;
+   font-size: 20px !important;
+   font-family: 'Raleway' !important;
 }

@@ -56,14 +56,14 @@
    height: initial;
 }
 
-p.carousel-text-head {
+.carousel-text-head {
    position: relative;
    font-size: 70px !important;
    font-family: Cambria !important;
    line-height: 1px;
 }
 
-p.carousel-text-content {
+.carousel-text-content {
    position: relative;
    font-size: 17px !important;
    font-family: Cambria !important;

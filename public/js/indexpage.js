@@ -68,6 +68,6 @@ function navbarViewEngine() {
    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
       $('#large-screen-nav').css('display', 'block');
    } else {
-      $('#large-screen-nav').css('display', 'flex');
+      $('#large-screen-nav').css('display', 'none');
    }
 }

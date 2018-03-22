@@ -5,6 +5,7 @@
    /* border-bottom: 1px dashed white; */
    box-shadow: none !important;
    padding: 0 10px;
+   display: none;
 }
 
 .firm-name {

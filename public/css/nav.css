@@ -1,5 +1,5 @@
 #large-screen-nav {
-   background-color: transparent;
+   background-color: rgb(22, 34, 49);
    position: fixed;
    z-index: 5;
    /* border-bottom: 1px dashed white; */
@@ -13,14 +13,90 @@
    font-size: 35px;
 }
 
+.firm-logo {
+   padding: 10px;
+   width: 25%;
+}
+
 li a {
    font-family: 'Quicksand', sans-serif;
-   color: white;
-   font-size: 19px;
+   color: white !important;
+   font-size: 15px !important;
 }
 
-li a:hover {
+#nav-mobile > li > a:hover {
    background: transparent !important;
-   border-bottom: 1px dotted white;
+   border-bottom: 2px solid white;
 }
 
+.dropdown-trigger {
+   outline: none;
+}
+
+.dropdown-content {
+   width: 330px !important;
+   overflow: visible !important;
+   background-color: rgb(22, 34, 49);
+}
+
+#services-subsection-1,
+#services-subsection-2,
+#services-subsection-3 { 
+   margin-left: 100%;
+   position: relative;
+}
+
+.dropdown-content > li > a {
+   padding: 20px;
+   font-family: 14px;
+   font-family: 'Quicksand', sans-serif;
+   color: white !important;
+   background-color: rgb(22, 34, 49) !important;
+}
+
+.dropdown-content > li > a:hover {
+   background: white !important;
+   color: rgb(22, 34, 49) !important;
+}
+
+.modal {
+   padding: 20px 15px;
+   background-color: rgb(22, 34, 49);
+}
+
+label {
+   font-size: 30px;
+   color: white !important;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.modal-content > .input-field input[type=text] {
+   font-size: 20px;
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.search_btn {
+   background-color:  white;
+   font-size: 25px;
+   text-transform: capitalize;
+   color: rgb(22, 34, 49);
+   font-family: 'Quicksand', sans-serif;
+}
+
+.search_btn > span i {
+   color: rgb(22, 34, 49);
+} 
+
+.search_btn:hover {
+   background-color: white;
+   padding: 0 35px;
+}
+
+.search-heading { 
+   line-height: 10px;
+   font-size: 40px;
+   text-align: center;
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+}

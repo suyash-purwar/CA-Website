@@ -31,6 +31,8 @@
     <link rel = "stylesheet" href = "../css/index-unique-css.css">
     <link rel = "stylesheet" href = "../css/index-unique-responsive-css.css">
     <link rel = "stylesheet" href = "../css/footer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href = "../images/favicon/favicon.ico" type = "image/x-icon">
    
     <!--[if lt IE 9]>
 	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
@@ -61,8 +63,8 @@
    <!-- Carousel -->
    <!-- This carousel is responsive -->
     <div class = "carousel carousel-slider center" data-indicators = "true">
-        <div class = "carousel-item carousel1">
-            <div class="caption valign-wrapper">
+        <div class = "carousel-item center-align">
+            <div class="caption center valign-wrapper carousel2">
                 <div>
                     <p class = "carousel-text-head">LT & ASSOCIATES</p>
                     <hr class = "carousel_hr">                    
@@ -71,8 +73,8 @@
             </div>
         </div>
 
-        <div class = "carousel-item center-align">
-            <div class="caption center valign-wrapper carousel2">
+        <div class = "carousel-item carousel1">
+            <div class="caption valign-wrapper">
                 <div>
                     <p class = "carousel-text-head">LT & ASSOCIATES</p>
                     <hr class = "carousel_hr">                    
@@ -105,18 +107,20 @@
     <!-- Nav -->
     <nav id = "large-screen-nav">
         <div class = "nav-wrapper">
-            <a href = "index.html" class = "firm-name">LT & ASSOCIATES</a>
-            <ul id = "nav-mobile" class = "right hide-on-mead-and-down">
+            <a href = "index.html" class = "firm-name">
+                <img src = "../images/logos/1.png" class = "firm-logo">
+            </a>
+            <ul id = "nav-mobile" class = "right hide-on-med-and-down">
                 <li>
                     <a href = "#">HOME</a>
                 </li>  
 
                 <li>
-                    <a href = "#">ABOUT US</a>
+                    <a class = "dropdown-button" data-contrainwidth = "false" data-alignment="right" data-gutter = "30" data-beloworigin = "true" href = "#" data-activates = "aboutus">ABOUT US</a>
                 </li>
 
                 <li>
-                    <a href = "#">SERVICES</a>
+                    <a class = "dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "services" href = "#">SERVICES</a>
                 </li>
 
                 <li>
@@ -130,9 +134,63 @@
                 <li>
                     <a href = "#">CONTACT</a>
                 </li>
+
+                <li>
+                    <a href = "#modal1" class = " modal-trigger">
+                        <i class = "material-icons">search</i>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Dropdown for ABOUT US -->
+    <ul id="aboutus" class = "dropdown-content">
+        <li><a href = "#">Our Founders</a></li>
+        <li><a href = "#">Testimonials</a></li>
+        <li><a href = "#">Our Vision</a></li>
+        <li><a href = "#">Firm History</a></li>
+    </ul>
+    
+    <!-- Dropdown for SERVICES -->
+    <ul id="services" class = "dropdown-content">
+        <li><a href = "#" class = "dropdown-button" data-hover = "hover" data-alignment = "left" data-activates="services-subsection-1">Audit & Taxation Services</a></li>
+        <li><a href = "#" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-2">Taxation</a></li>
+        <li><a href = "#" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-3">Advisory</a></li>
+    </ul>
+
+    <!-- Dropdown for sub-sections in SERVICES dropdown -->
+    <ul id="services-subsection-1" class="dropdown-content">
+        <li><a href="#">Statutory Audits</a></li>
+        <li><a href="#">VAT Audits</a></li>
+        <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+    </ul>
+
+    <ul id="services-subsection-2" class="dropdown-content">
+        <li><a href="#">Direct Taxation - Consultancy & Advisory</a></li>
+        <li><a href="#">Indirect Taxation</a></li>
+        <li><a href="#">Transfer Pricing</a></li>
+    </ul>
+
+    <ul id="services-subsection-3" class="dropdown-content">
+        <li><a href = "#">Governance & Risk Management Services</a></li>
+        <li><a href = "#">Business Advisory</a></li>
+        <li><a href = "#">Valuation</a></li>
+        <li><a href = "#">Legal & Secretarial Services</a></li>
+        <li><a href = "#">Advisory Services to NGO's</a></li>
+    </ul>
+
+    <!-- Search Modal -->
+    <div id = "modal1" class = "modal">
+        <div class = "modal-content center">
+            <p class = "search-heading">Search on this site</p>
+            <div class = "input-field">
+                <label>Search</label>
+                <input type = "text" class = "validate">
+            </div>
+            <div class = "search_btn btn btn-waves waves-light">search <span><i class = "material-icons right">arrow_forward</i></span></div>
+        </div>
+    </div>
 
    <script src = "../externals/jquery/jquery-3.2.1.js"></script>
    <script src = "../externals/materialize/js/materialize.min.js"></script>

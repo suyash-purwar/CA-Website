@@ -2,7 +2,7 @@
 nav#large-screen-nav {
    background-color: rgb(22, 34, 49);
    position: fixed;
-   z-index: 5;
+   z-index: 50;
    box-shadow: none !important;
    padding: 0 10px;
    display: none;
@@ -20,6 +20,7 @@ nav#large-screen-nav {
 }
 
 li a {
+   z-index: 60;
    font-family: 'Quicksand', sans-serif;
    color: white !important;
    font-size: 15px !important;

@@ -8,7 +8,6 @@
 
 .carousel {
    z-index: 1;
-   position: absolute;
    height: 100vh;
 }
 
@@ -78,4 +77,38 @@ hr.carousel_hr {
    position: relative;
    font-size: 20px !important;
    font-family: 'Raleway' !important;
+}
+
+/* Styles for welcome content */
+/* This content is just below carousel */
+.welcome-section {
+   text-align: center;
+   margin: 0 auto;
+   padding: 150px 0px;
+}
+
+p.welcome-section-heading {
+   font-size: 50px;
+   line-height: 1px;
+   color: rgb(22, 24, 49);
+   font-family: 'Raleway', sans-serif;
+}
+
+p.sub-text {
+   font-size: 16px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   color: grey;
+   line-height: 1px;
+}
+
+img.underline {
+   line-height: 1px; 
+   width: 35%;
+}
+
+.welcome-section-content {
+   font-size: 18px;
+   color: black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

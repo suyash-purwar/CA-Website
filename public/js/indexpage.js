@@ -42,7 +42,7 @@ window.sr = ScrollReveal({reset: true});
     });
 
     $('.services-subsection-3').dropdown({
-      inDuration: 300,
+      inDuration: 280,
       outDuration: 225,
       constrain_width: false, 
       hover: true,
@@ -73,7 +73,7 @@ window.onscroll = function() {
 }
  
 function navbarViewEngineForLargeScreens() {
-   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       $('#large-screen-nav').css('display', 'block');
    } else {
       $('#large-screen-nav').css('display', 'none');

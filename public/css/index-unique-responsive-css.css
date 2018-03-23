@@ -7,10 +7,23 @@
    .caption > div {
       padding: 0 10px;
    }
+
+   div.welcome-section {
+      padding: 40px 0px;
+   }
+
+   p.welcome-section-heading {
+      line-height: normal;
+      font-size: 40px;
+   }
 }
 
 @media only screen and (max-width: 460px) {
    p.carousel-text-head {
       font-size: 45px !important;
+   }
+
+   p.welcome-section-heading {
+      font-size: 35px;
    }
 }

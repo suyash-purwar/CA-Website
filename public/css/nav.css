@@ -1,8 +1,8 @@
-#large-screen-nav {
+/* These are the styles fot nav in large screens */
+nav#large-screen-nav {
    background-color: rgb(22, 34, 49);
    position: fixed;
    z-index: 5;
-   /* border-bottom: 1px dashed white; */
    box-shadow: none !important;
    padding: 0 10px;
    display: none;
@@ -25,11 +25,12 @@ li a {
    font-size: 15px !important;
 }
 
-#nav-mobile > li > a:hover {
+#large-screen-nav > .nav-wrapper > #nav-mobile > li > a:hover {
    background: transparent !important;
    border-bottom: 2px solid white;
 }
 
+/* These are the styles for dropdown for nav in large screesn */
 .dropdown-trigger {
    outline: none;
 }
@@ -60,6 +61,7 @@ li a {
    color: rgb(22, 34, 49) !important;
 }
 
+/* These are the styles for search box in nav */
 .modal {
    padding: 20px 15px;
    background-color: rgb(22, 34, 49);
@@ -68,6 +70,14 @@ li a {
 label {
    font-size: 30px;
    color: white !important;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.search-heading { 
+   line-height: 10px;
+   font-size: 40px;
+   text-align: center;
+   color: white;
    font-family: 'Quicksand', sans-serif;
 }
 
@@ -87,17 +97,38 @@ label {
 
 .search_btn > span i {
    color: rgb(22, 34, 49);
-} 
+}
 
 .search_btn:hover {
    background-color: white;
    padding: 0 35px;
 }
 
-.search-heading { 
-   line-height: 10px;
-   font-size: 40px;
-   text-align: center;
-   color: white;
-   font-family: 'Quicksand', sans-serif;
+/* These are the styles for nav in small and medium sized screens */
+
+nav#small-screen-nav {
+   padding: 0px;
+   z-index: 20;
+   position: fixed;
+   background-color: transparent;
+   box-shadow: none;
 }
+
+img.firm-logo-sidenav {
+   width: 90%;
+   display: block;
+   margin: auto;
+}
+
+ul#slide-out li:nth-child(1) {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#slide-out {
+   background-color: rgb(22, 34, 49);
+}
+
+#slide-out > li a > i {
+   color: white;
+} 

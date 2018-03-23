@@ -17,6 +17,7 @@
 }
 
 .carousel1{
+   background-attachment: fixed;
    background-image: url('../images/slideshow/a.png');
    background-position: center center;
    background-repeat: no-repeat;
@@ -24,6 +25,7 @@
 }
 
 .carousel2 {
+   background-attachment: fixed;   
    background-image: url('../images/slideshow/b.png');
    background-position: center center;
    background-repeat: no-repeat;
@@ -31,6 +33,7 @@
 }
 
 .carousel3 {
+   background-attachment: fixed;   
    background-image: url('../images/slideshow/c.png');
    background-position: center center;
    background-repeat: no-repeat;
@@ -38,6 +41,7 @@
 }
 
 .carousel4 {
+   background-attachment: fixed;   
    background-image: url('../images/slideshow/d.png');
    background-position: center center;
    background-repeat: no-repeat;
@@ -84,7 +88,7 @@ hr.carousel_hr {
 .welcome-section {
    text-align: center;
    margin: 0 auto;
-   padding: 150px 0px;
+   padding: 130px 0px;
 }
 
 p.welcome-section-heading {
@@ -111,4 +115,54 @@ img.underline {
    font-size: 18px;
    color: black;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styles for Our Qualities Section */
+.qualities-container {
+   background-color: rgb(22, 34, 49);
+   background-image: url('../images/things/quality-container-img2.jpg');
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   
+   /* grid-auto-rows: minmax(600px, auto); */
+}
+
+.quality-container-position {
+   background-color: rgba(0, 0, 0, 0.829);
+   padding: 50px 0px;
+}
+
+.quality-cards-wrapper {
+   max-width: 1080px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   /* grid-gap: 20px; */
+   /* max-width: 1080px;
+   margin: 0 auto;
+   display: block; */
+}
+
+#quality-card {
+   text-align: center;
+   margin: 0 auto;
+   color: white;
+   padding: 10px;
+}
+
+#quality-card > i {
+   /* line-height: 1px; */
+   font-size: 90px;
+   color: white;
+}
+
+.quality-card-heading {
+   font-size: 25px;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.quality-card-description {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 18px;
 }

@@ -52,13 +52,6 @@ window.sr = ScrollReveal({reset: true});
     });
 })()
 
-// For search modal
-$('#modal1').modal({
-  endingTop: '20%',
-  inDuration: 500,
-  outDuration: 300
-});
-
 // For sidenav
 $('.button-collapse').sideNav({
   menuWidth: 300,
@@ -73,7 +66,7 @@ window.onscroll = function() {
 }
  
 function navbarViewEngineForLargeScreens() {
-   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+   if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
       $('#large-screen-nav').css('display', 'block');
    } else {
       $('#large-screen-nav').css('display', 'none');

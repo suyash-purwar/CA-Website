@@ -16,6 +16,21 @@
       line-height: normal;
       font-size: 40px;
    }
+
+   .quality-cards-wrapper {
+      max-width: 100%;
+      padding: 10px;
+      grid-template-columns: 1fr;
+   }
+
+   .quality-container-position {
+      padding: 20px 0px;
+   }
+
+   #quality-card {
+      padding: 0px 3px;
+      border: none !important;
+   }
 }
 
 @media only screen and (max-width: 460px) {
@@ -23,7 +38,15 @@
       font-size: 45px !important;
    }
 
+   p.carousel-text-content {
+      font-size: 17px;
+   }
+
    p.welcome-section-heading {
       font-size: 35px;
+   }
+
+   .quality-container-position {
+      padding: 10px 0px;
    }
 }

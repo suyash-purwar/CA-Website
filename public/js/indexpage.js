@@ -59,6 +59,9 @@ $('.button-collapse').sideNav({
   draggable: true
 });
 
+
+
+
 // Function for showing thw navbar after some scrolling
 window.onscroll = function() {
    navbarViewEngineForLargeScreens();

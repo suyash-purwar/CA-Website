@@ -131,19 +131,14 @@
     </ul>
 
     <!-- Nav bar for small and medium sized screens -->
-    <ul id = "slide-out" class = "collapsible side-nav">
-        <li>
-            <div class = "user-view">
-                <img src = "../images/logos/1.png" class = "firm-logo-sidenav">
-            </div>
-        </li>
+    <ul id = "slide-out" class = "collapsible side-nav" data-collapsible = "accordion">
         <li>
             <div class = "collapsible-header">
                 <i class = "material-icons sidenav-icons left">home</i> Home
             </div>
         </li>
         <li>
-            <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
+            <div class = "collapsible-header" data-collapsible = "accordion"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
             <div class = "collapsible-body">
                 <ul>
                     <li><a href = "#">Our Founders</a></li>
@@ -155,24 +150,44 @@
         </li>
         <li>
             <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">star</i> Services</div>
-            <div class = "collapsible-body colllapsible">
-                <ul>
+            <div class = "collapsible-body collapsible">
+                <ul class = "collapsible" data-collapsible = "accordion">
+
                     <li>
-                        <div class = "collapsible-header">Audit & Taxation Services</div>
+                        <div class = "collapsible-header">Audit & Taxation Services <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
                         <div class = "collapsible-body">
                             <ul>
                                 <li><a href="#">Statutory Audits</a></li>
                                 <li><a href="#">VAT Audits</a></li>
-                                <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+                                <li><a href="#">Due Diligence Reviews</a></li>
                             </ul>
                         </div>
                     </li>
+
                     <li>
-                        <div class = "collapsible-header">Taxation</div>
+                        <div class = "collapsible-header">Taxation <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                        <div class = "collapsible-body">
+                            <ul class = "collapsible" data-collapsible="accordion">
+                                <li><a href = "#">Direct Taxes</a></li>
+                                <li><a href = "#">Indirect Taxes</a></li>
+                                <li><a href = "#">Transfer Pricing</a></li>
+                            </ul>
+                        </div>
                     </li>
+
                     <li>
-                        <div class = "collapsible-header">Advisory</div>
+                        <div class = "collapsible-header">Advisory <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                        <div class = "collapsible-body">
+                            <ul class = "collapsible" data-collapsible="accordion">
+                                <li><a href = "#">Risk Management Services</a></li>
+                                <li><a href = "#">Business Advisory</a></li>
+                                <li><a href = "#">Valuation</a></li>
+                                <li><a href = "#">Legal & Secretarial Services</a></li>
+                                <li><a href = "#">Advisory Serices to NGO's</a></li>
+                            </ul>
+                        </div>
                     </li>
+
                 </ul>
             </div>
         </li>

@@ -100,8 +100,8 @@ ul.collapsible {
    color: white;
 }
 
-.collapsible-body > ul li a{
-   font-size: 15px;
+.collapsible-body > ul > li > a{
+   font-size: 13px !important;
    color: rgb(22, 34, 49) !important;
    font-family: 'Quicksand', sans-serif;
 }
@@ -111,13 +111,27 @@ ul.collapsible {
 }
 
 .collapsible-body > ul > li > .collapsible-header {
-   font-size: 15px;
-   color: rgb(22, 34, 49);
+   font-size: 13px !important;
+   color: rgb(22, 34, 49) !important;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.collapsible-body > ul > li > .collapsible-body > ul > li > a{
+   font-size: 12px !important;
+   color: rgb(22, 34, 49) !important;
    font-family: 'Quicksand', sans-serif;
 }
 
 .collapsible-body > ul > li > .collapsible-header:hover {
    background: white !important;
+}
+
+.collapsible .collapsible {
+   margin: 0;
+ }
+
+.collapsible-header {
+   padding: 0px 10px !important;
 }
 
 #slide-out {
@@ -128,15 +142,14 @@ ul.collapsible {
    color: white;
 } 
 
-#slide-out > li > div {
+#slide-out > li > div:not(.collapsible-header) {
    color: white;
-   padding-left: 30px;
+   padding-left: 15px;
 }
 
 /* Styles for sub nav */
 /* This nav conatains EMAIL ID, PHONE NO AND FOLLOW US links */
 nav#sub-nav {
-
    padding: 0px 10px;
    box-shadow: none;
    z-index: 15;
@@ -164,5 +177,6 @@ nav#sub-nav {
 #sub-nav .nav-wrapper #nav-mobile > li {
    color: white;
    font-size: 16px;
+   font-family: 'Quicksand', sans-serif
 }
 

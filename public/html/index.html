@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>LT & ASSOCIATES</title>
+   <title>LT & ASSOCIATES, Chartered Accountants</title>
    <meta charset = "utf-8">
    <style type = "text/css">
       /* Styles for preloader */
@@ -33,6 +33,7 @@
     <link rel = "stylesheet" href = "../css/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href = "../images/favicon/favicon.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
     <!--[if lt IE 9]>
 	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
@@ -130,18 +131,66 @@
     </ul>
 
     <!-- Nav bar for small and medium sized screens -->
-    <ul id = "slide-out" class = "side-nav">
+    <ul id = "slide-out" class = "collapsible side-nav">
         <li>
             <div class = "user-view">
                 <img src = "../images/logos/1.png" class = "firm-logo-sidenav">
             </div>
         </li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">home</i> Home </a></li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">group</i> About Us </a></li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">star</i> Services </a></li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">notifications</i> News </a></li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">business_center</i> Careers </a></li>
-        <li><a href = "#"><i class = "material-icons sidenav-icons left">call</i> Contact </a></li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">home</i> Home
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
+            <div class = "collapsible-body">
+                <ul>
+                    <li><a href = "#">Our Founders</a></li>
+                    <li><a href = "#">Testimonials</a></li>
+                    <li><a href = "#">Our Vision</a></li>
+                    <li><a href = "#">Firm History</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">star</i> Services</div>
+            <div class = "collapsible-body colllapsible">
+                <ul>
+                    <li>
+                        <div class = "collapsible-header">Audit & Taxation Services</div>
+                        <div class = "collapsible-body">
+                            <ul>
+                                <li><a href="#">Statutory Audits</a></li>
+                                <li><a href="#">VAT Audits</a></li>
+                                <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class = "collapsible-header">Taxation</div>
+                    </li>
+                    <li>
+                        <div class = "collapsible-header">Advisory</div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">notifications</i> News
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">business_center</i> Careers
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">call</i> Contact
+            </div>
+        </li>
     </ul>
 
     <!-- Trigger button for sidenav -->
@@ -151,6 +200,28 @@
                 <li>
                     <a href="#" data-activates="slide-out" class = "button-collapse"><i class="material-icons">menu</i></a>
                 </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id = "sub-nav" class = "hide-on-med-and-down">
+        <div class = "nav-wrapper">
+            <ul id = "nav-mobile">
+                <li>
+                    <i class = "material-icons left">call</i>+9845324139 
+                </li>
+                
+                <li>
+                    <span class = "slash"> / </span>
+                </li>
+
+                <li>
+                    <i class = "left material-icons"> email</i>test.test@gmail.com
+                </li>
+
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-facebook"></i></li>
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-linkedin"></i></li>
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-twitter"></i></li>
             </ul>
         </div>
     </nav>

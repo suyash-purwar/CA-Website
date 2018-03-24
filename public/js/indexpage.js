@@ -54,7 +54,7 @@ window.sr = ScrollReveal({reset: true});
 
 // For sidenav
 $('.button-collapse').sideNav({
-  menuWidth: 300,
+  menuWidth: 250,
   edge: 'right',
   draggable: true
 });

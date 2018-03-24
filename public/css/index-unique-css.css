@@ -124,8 +124,6 @@ img.underline {
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
-   
-   /* grid-auto-rows: minmax(600px, auto); */
 }
 
 .quality-container-position {
@@ -138,10 +136,6 @@ img.underline {
    margin: auto;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   /* grid-gap: 20px; */
-   /* max-width: 1080px;
-   margin: 0 auto;
-   display: block; */
 }
 
 #quality-card {
@@ -152,7 +146,6 @@ img.underline {
 }
 
 #quality-card > i {
-   /* line-height: 1px; */
    font-size: 90px;
    color: white;
 }

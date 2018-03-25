@@ -31,6 +31,10 @@
       padding: 0px 3px;
       border: none !important;
    }
+
+   .services-container {
+      grid-template-columns: 12fr;
+   }
 }
 
 @media only screen and (max-width: 460px) {

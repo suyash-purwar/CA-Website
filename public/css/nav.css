@@ -17,7 +17,7 @@ nav#large-screen-nav {
 }
 
 .firm-logo {
-   padding: 10px;
+   padding: 20px;
    width: 25%;
 }
 
@@ -73,6 +73,16 @@ nav#small-screen-nav {
    position: fixed;
    background-color: transparent;
    box-shadow: none;
+}
+
+.sidenav-follow-links {
+  padding: 0px 15px;
+  transition: .2s;
+  cursor: pointer
+}
+
+.sidenav-follow-links:hover {
+  font-size: 20px;
 }
 
 img.firm-logo-sidenav {

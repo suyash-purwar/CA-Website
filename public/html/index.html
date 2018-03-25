@@ -32,8 +32,29 @@
     <link rel = "stylesheet" href = "../css/index-unique-responsive-css.css">
     <link rel = "stylesheet" href = "../css/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href = "../images/favicon/favicon.ico" type = "image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../images/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../images/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
    
     <!--[if lt IE 9]>
 	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
@@ -42,23 +63,23 @@
 <body>
 
     <!-- Pre Loader -->
-   <div class = "overlay" id = "loader-overlay">
-      <div class = "preloader-wrapper big active">
-         <div class = "spinner-layer" style = "border-color: #1A2A5A;">
-            <div class = "circle-clipper left">
-               <div class = "circle"></div>
-            </div>
+    <div class = "overlay" id = "loader-overlay">
+        <div class = "preloader-wrapper big active">
+            <div class = "spinner-layer" style = "border-color: #1A2A5A;">
+                <div class = "circle-clipper left">
+                    <div class = "circle"></div>
+                </div>
 
-            <div class = "gap-patch">
-               <div class = "circle"></div>
-            </div>
+                <div class = "gap-patch">
+                    <div class = "circle"></div>
+                </div>
 
-            <div class = "circle-clipper right">
-               <div class = "circle"></div>
+                <div class = "circle-clipper right">
+                    <div class = "circle"></div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
 
     <!-- Nav -->
     <nav id = "large-screen-nav" class = "hide-on-med-and-down">
@@ -132,6 +153,9 @@
 
     <!-- Nav bar for small and medium sized screens -->
     <ul id = "slide-out" class = "collapsible side-nav" data-collapsible = "accordion">
+        <li>
+            <img src = "../images/logos/1.png" class = "firm-logo-sidenav">
+        </li>
         <li>
             <div class = "collapsible-header">
                 <i class = "material-icons sidenav-icons left">home</i> Home
@@ -215,10 +239,15 @@
                 <li>
                     <a href="#" data-activates="slide-out" class = "button-collapse"><i class="material-icons">menu</i></a>
                 </li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-facebook"></i></li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-linkedin"></i></li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-twitter"></i></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Sub nav -->
+    <!-- This is only visible in large screens -->
     <nav id = "sub-nav" class = "hide-on-med-and-down">
         <div class = "nav-wrapper">
             <ul id = "nav-mobile">
@@ -284,6 +313,18 @@
             </div>
         </div>
     </div>
+
+    <!-- Contact Options Section -->
+    <!-- This section is visible on small and medium sized screens -->
+    <div class = "contact-options-container hide-on-large-only">
+        <div>
+            <p class = "contact-option">+9845324139</p>
+        </div>
+        <div>
+            <a href = "#"><p class = "contact-option">test.test@gmail.com</p></a>
+        </div>
+    </div>
+
 
     <!-- Welcome section -->
     <div class = "welcome-section container">

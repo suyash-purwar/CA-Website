@@ -178,6 +178,67 @@ img.underline {
    font-family: 'Quicksand', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Styles for Q/A Section */
+.QA-section-parent {
+   padding: 30px;
+   background-color: rgb(22, 34, 49);
+}
+
+.QA-section-wrapper {
+   max-width: 1080px;
+   display: block;
+   margin: 0 auto;
+}
+
+.QA-section-header {
+   font-size: 40px;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   line-height: 1px;
+   color: white
+}
+
+.QA-container {
+   padding: 20px 0px;
+}
+
+.question-container-1, .question-container-3 {
+   display: grid;
+   grid-template-columns: 4fr 8fr;
+   grid-gap: 10px;
+}
+
+.question-container-2 {
+   display: grid;
+   grid-template-columns: 8fr 4fr;
+   grid-gap: 10px;
+}
+
+.question-on-large-only {
+   font-size: 40px;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   color: white;
+}
+
+.question-on-small-and-med {
+   display: none;
+}
+
+.question {
+   font-size: 40px;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+   color: white;
+}
+
+.answer {
+   font-size: 17px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+   text-align: center;
+}
+
 /* Styles for our services */
 .services-super-parent {
    background-image: url('../images/things/services-container-img.jpg');
@@ -199,12 +260,6 @@ img.underline {
    font-size: 40px;
    text-align: center;
    font-family: 'Quicksand', sans-serif;
-}
-
-
-hr.stylish-hr-white {
-   border-color: white;
-   width: 80px;
 }
 
 .services-container {

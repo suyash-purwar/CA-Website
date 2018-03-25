@@ -35,7 +35,41 @@
    .services-container {
       grid-template-columns: 12fr;
    }
-}
+
+   .question-container-1,
+   .question-container-3 {
+      grid-template-columns: 13fr;
+      grid-gap: 0px;
+   }
+
+   .question-container-2 {
+      grid-template-columns: 0fr, 13fr;
+   }
+
+   .question-on-small-and-med {
+      display: block;
+   }
+
+   .question-on-large-only {
+      display: none;
+   }
+
+   .question {
+      text-align: left;
+   }
+
+   .question::before {
+      content: "Q:  ";
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 50px;
+      line-height: 10px;
+   }
+
+   .answer {
+      text-align: left;
+      font-size: 16px;
+   }
+} 
 
 @media only screen and (max-width: 460px) {
    p.carousel-text-head {

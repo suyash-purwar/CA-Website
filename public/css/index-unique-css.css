@@ -223,6 +223,9 @@ img.underline {
 
 .question-on-small-and-med {
    display: none;
+   font-size: 40px;
+   font-family: 'Quicksand', sans-serif;
+   color: white; 
 }
 
 .question {

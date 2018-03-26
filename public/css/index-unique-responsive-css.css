@@ -43,7 +43,7 @@
    }
 
    .question-container-2 {
-      grid-template-columns: 0fr, 13fr;
+      grid-template-columns: 13fr;
    }
 
    .question-on-small-and-med {
@@ -58,7 +58,7 @@
       text-align: left;
    }
 
-   .question::before {
+   .question::before, .question-on-small-and-med::before {
       content: "Q:  ";
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 50px;

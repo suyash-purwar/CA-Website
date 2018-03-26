@@ -1,0 +1,86 @@
+.contactus-section-superparent {
+	background-image: url('../images/things/contact-us-container-img.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contactus-wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+	display: block;
+	padding: 30px 10px;
+}
+
+.contactus-header-wrapper {
+	padding: 40px 0px;
+}
+
+.contactus-header {
+	color: rgb(22, 34, 40);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	line-height: 1px;
+}
+
+.contactus-subtext {
+	font-family: 16px;
+	color: rgb(22, 34, 49);
+	font-style: italic;
+	text-align: center;
+}
+
+.input-field input, .materialize-textarea {
+	font-family: 'Quicksand', 'sans-serif';
+	font-size: 17px;
+	color: rgb(22, 34, 49);
+}
+
+.input-field label {
+	color: white !important;
+}
+
+.input-field:focus + label {
+	color: white !important;
+}
+
+.input-field input, .materialize-textarea{ 
+	box-shadow: none;
+	color: black;
+	border-bottom: 1px solid rgb(22, 34, 49) !important;
+}
+
+.input-field input:focus, .materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid rgb(33, 34, 49) !important;
+	box-shadow: 0 1px 0 0 rgb(22, 34, 49) !important;
+}
+
+.input-field i {
+	color: rgb(22, 34, 49);
+}
+
+.input-field label {
+	font-size: 17px;
+	font-family:'Quicksand', sans-serif;
+	color: rgb(22, 34, 49) !important;
+}
+
+.input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(22, 34, 49) !important;
+	font-size: 19px;
+}
+
+.input-field .prefix.active {
+	color: rgb(22, 34, 49) !important;
+	transform: rotate(360deg);
+	transition: .5s;
+}
+
+.row > button[type="submit"] {
+	font-family: 'Quicksand', sans-serif;
+	font-family: 20px;
+	background-color: rgb(22, 34, 49);
+	color: white;
+}

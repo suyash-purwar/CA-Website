@@ -30,6 +30,7 @@
     <link rel = "stylesheet" href = "../css/nav.css">
     <link rel = "stylesheet" href = "../css/index-unique-css.css">
     <link rel = "stylesheet" href = "../css/index-unique-responsive-css.css">
+    <link rel = "stylesheet" href = "../css/contactus.css">
     <link rel = "stylesheet" href = "../css/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -339,7 +340,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus harum perferendis dolor accusantium. Ratione nisi, alias sapiente ullam voluptatum vitae adipisci? Pariatur ducimus officiis impedit magnam doloremque autem omnis tenetur magni velit obcaecati error temporibus laborum aut porro enim, nihil repellendus, aliquid in laudantium recusandae quam. Obcaecati quod sunt voluptatibus ut mollitia iure expedita aut quaerat commodi, omnis enim ullam!
         </p>
 
-        <p class = "welcome-section-content">
+        <p class = "welcome-section-content hide-on-small-only">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum unde ipsa, quas dignissimos cupiditate ex esse? Reprehenderit, numquam. Sint, enim!
         </p>
     </div>
@@ -400,7 +401,7 @@
 
     <!-- Our Services Section -->
     <div class = "services-super-parent">
-    <div style = "background-color: rgba(22, 34, 49, 0.87)">
+    <div style = "background-color: rgba(22, 34, 49, 0.701)">
         <div class = "services-wrapper">
 
             <div style = "padding-bottom: 30px">
@@ -502,6 +503,51 @@
                 </div>
             </div>
         </div>
+        </div>
+    </div>
+
+    <div class = "contactus-section-superparent">
+        <div style = "background-color: rgba(149, 226, 231, 0.274)">
+            <div class = "contactus-header-wrapper">
+                <p class = "contactus-header">Get in touch</p>
+                <hr class = "stylish-hr-blue">
+
+                <p class = "contactus-subtext">We are always ready to help you out regarding your queries</p>
+            </div>
+
+            <div class = "contactus-wrapper">
+                <div class = "row">
+                    <form class = "col s12 m12 l12 center-align">
+                        <div class = "row">
+                            <div class = "input-field col s12 m6 l6">
+                                <i class = "show-on-medium-and-up material-icons prefix">account_circle</i>
+                                <input type = "text" class = "validate" id = "name" autocomplete="off" required>
+                                <label for = "name">Name</label>
+                            </div>
+
+                            <div class = "input-field col s12 m6 l6">
+                                <i class = "show-on-medium-and-up material-icons prefix">call</i>
+                                <input type = "number" class = "validate" id = "phone" autocomplete="off">
+                                <label for = "phone">Phone</label>
+                            </div>
+
+                            <div class = "input-field col s12">
+                                <i class = "show-on-medium-and-up material-icons prefix">email</i>
+                                <input type = "email" class = "validate" id = "email" autocomplete="off" required>
+                                <label for = "email">Email</label>
+                            </div>
+
+                            <div class = "input-field col s12">
+                                <i class = "show-on-medium-and-up material-icons prefix">message</i>
+                                <textarea class = "materialize-textarea" id = "message" required></textarea>
+                                <label for = "message">Message</label>
+                            </div>
+
+                            <button type = "submit" class = "btn black waves-effect waves-light">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 

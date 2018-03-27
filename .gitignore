@@ -8,3 +8,5 @@ public/externals/materialize/css/materialize.css
 public/externals/materialize/js/materialize.js
 public/externals/materialize/fonts/
 public/images/favicon/code.txt
+credentials.csv
+OAuth2-tokens.json

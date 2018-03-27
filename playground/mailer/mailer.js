@@ -19,8 +19,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'kh5wxu72rfn5aatn@ethereal.email',
-        pass: 'NxWrTUrnWb9VKvaSvS'
+        user: 'xxxxxxxxxxxxxxxxxx',
+        pass: 'xxxxxxxxxxxx'
     },
     tls: {
         rejectUnauthorized: false

@@ -59,6 +59,11 @@ $('.button-collapse').sideNav({
   draggable: true
 });
 
+$('.contact-form').on('submit', function(e) {
+  
+  e.preventDefault();
+})
+
 // Function for showing thw navbar after some scrolling
 window.onscroll = function() {
    navbarViewEngineForLargeScreens();

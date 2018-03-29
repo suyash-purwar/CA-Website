@@ -34,6 +34,10 @@
 	grid-row: 2;
 }
 
+ .footer-wrapper > div:nth-child(4), .footer-wrapper > div:nth-child(5) {
+	padding-top: 30px;
+}
+
 .footer-header {
 	line-height: 1px;
 	font-size: 20px;

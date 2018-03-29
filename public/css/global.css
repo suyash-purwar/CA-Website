@@ -6,12 +6,7 @@
 body {
    margin: 0;
    padding: 0;
-   overflow-x: hidden;
-}
 
-* {
-   font-size: 18px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @keyframes left {
@@ -58,11 +53,14 @@ body {
 hr.stylish-hr-white {
    border-color: white;
    width: 80px;
+   color: white;
 }
 
 hr.stylish-hr-blue {
    border-color: rgb(22, 34, 49);
    width: 80px;
+
+   /*background-color: rgb(22, 34, 49)*/
 }
 
 p.sub-text {
@@ -70,6 +68,6 @@ p.sub-text {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-style: italic;
    color: grey;
-   line-height: 1px;
+   /*line-height: 1px;*/
    text-align: center;
 }

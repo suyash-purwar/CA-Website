@@ -303,6 +303,8 @@ img.underline {
 
 .map-header-container {
    text-align: center;
+   padding-bottom: 30px;
+
    color: rgb(22, 34, 49);
 }
 

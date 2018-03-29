@@ -1,4 +1,4 @@
-@media only screen and (max-width: 922px) {
+@media only screen and (max-width: 992px) {
    p.carousel-text-head {
       line-height: normal;
       font-size: 55px !important;
@@ -76,7 +76,11 @@
       grid-gap: 50px;
    }
 
-} 
+   .map-wrapper {
+      padding: 30px;
+   }
+
+}
 
 @media only screen and (max-width: 460px) {
    p.carousel-text-head {

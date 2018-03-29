@@ -101,38 +101,32 @@ sr.reveal('.QA-section-header', {
 
 sr.reveal('.question-container-1', {
   duration: 1000,
-  origin: 'left',
-  distance: '50px'
+  origin: 'left'
 });
 
 sr.reveal('.question-container-2', {
   duration: 1000,
-  origin: 'right',
-  distance: '50px'
+  origin: 'right'
 });
 
 sr.reveal('.question-container-3', {
   duration: 1000,
-  origin: 'left',
-  distance: '50px'
+  origin: 'left'
 });
 
 sr.reveal('.services-section-header', {
   duration: 1000,
-  origin: 'top',
-  distance: '50px'
+  origin: 'top'
 });
 
 sr.reveal('.service', {
   duration: 1500,
-  origin: 'top',
-  distance: '50px'
+  origin: 'top'
 }, 100);
 
 sr.reveal('.map-header', {
   duration: 1000,
-  origin: 'top',
-  distance: '50px'
+  origin: 'top'
 });
 
 sr.reveal('.map-wrapper > div:nth-child(1)', {

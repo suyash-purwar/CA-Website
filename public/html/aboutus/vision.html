@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Founders | LT & ASSOCIATES</title>
+
+   <style type = "text/css">
+      /* Styles for preloader */
+
+      .overlay {
+         z-index: 9999;
+         position: fixed;
+         background-color: white;
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+   </style>
+
+   <script>
+      // Script for loader
+      window.addEventListener('load', () => {
+         document.getElementById('loader-overlay').style.display = "none";
+      });
+   </script>
+
+   <link rel = "stylesheet" href = "../../externals/materialize/css/materialize.css">
+   <link rel = "stylesheet" href = "../../css/global.css">
+   <link rel = "stylesheet" href = "../../css/nav.css">
+   <link rel = "stylesheet" href = "../../css/contactus.css">
+   <link rel = "stylesheet" href = "../../css/footer.css">
+   <link rel = "stylesheet" href = "../../css/innerpage-common.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../images/favicon/apple-touch-icon-57x57.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/favicon/apple-touch-icon-114x114.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../images/favicon/apple-touch-icon-72x72.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../images/favicon/apple-touch-icon-144x144.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../../images/favicon/apple-touch-icon-60x60.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../images/favicon/apple-touch-icon-120x120.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../images/favicon/apple-touch-icon-76x76.png" />
+   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../images/favicon/apple-touch-icon-152x152.png" />
+   <link rel="icon" type="image/png" href="../../images/favicon/favicon-196x196.png" sizes="196x196" />
+   <link rel="icon" type="image/png" href="../../images/favicon/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/png" href="../../images/favicon/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="../../images/favicon/favicon-16x16.png" sizes="16x16" />
+   <link rel="icon" type="image/x-icon" href="../../public/images/favicon/favicon.ico">
+   <link rel="icon" type="image/png" href="../../public/images/favicon/favicon-128.png" sizes="128x128" />
+   <meta name="application-name" content="&nbsp;"/>
+   <meta name="msapplication-TileColor" content="#FFFFFF" />
+   <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+   <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+   <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+   <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+   <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+   <!--[if lt IE 9]>
+	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
+   <![endif]-->
+</head>
+<body>
+    <!-- Pre Loader -->
+   <div class = "overlay" id = "loader-overlay">
+      <div class = "preloader-wrapper big active">
+         <div class = "spinner-layer" style = "border-color: #1A2A5A;">
+               <div class = "circle-clipper left">
+                  <div class = "circle"></div>
+               </div>
+
+               <div class = "gap-patch">
+                  <div class = "circle"></div>
+               </div>
+
+               <div class = "circle-clipper right">
+                  <div class = "circle"></div>
+               </div>
+         </div>
+      </div>
+   </div>
+    <!-- Nav -->
+   <nav id = "large-screen-nav" class = "hide-on-med-and-down">
+      <div class = "nav-wrapper">
+         <a href = "../index.html" class = "firm-name">
+            <img src = "../../images/logos/1.png" class = "firm-logo">
+         </a>
+         <ul id = "nav-mobile" class = "right">
+            <li>
+                  <a href = "../index.html">HOME</a>
+            </li>  
+
+            <li>
+               <a class = "dropdown-button" data-contrainwidth = "false" data-alignment="right" data-gutter = "30" data-beloworigin = "true" href = "#!" data-activates = "aboutus">ABOUT US</a>
+            </li>
+
+            <li>
+               <a class = "dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "services" href = "#!">SERVICES</a>
+            </li>
+
+            <li>
+               <a href = "#">NEWS</a>
+            </li>
+
+            <li>
+               <a href = "#">CAREERS</a>
+            </li>
+
+            <li>
+               <a href = "#">CONTACT</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+     
+   <!-- Dropdown for ABOUT US -->
+   <ul id="aboutus" class = "dropdown-content">
+      <li><a href = "founders.html">Our Founders</a></li>
+      <li><a href = "testimonials.html">Testimonials</a></li>
+      <li><a href = "vision.html">Our Vision</a></li>
+      <li><a href = "firm-history.html">Firm History</a></li>
+   </ul>
+   
+   <!-- Dropdown for SERVICES -->
+   <ul id="services" class = "dropdown-content">
+      <li><a href = "#!" class = "dropdown-button" data-hover = "hover" data-alignment = "left" data-activates="services-subsection-1">Audit & Taxation Services</a></li>
+      <li><a href = "#!" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-2">Taxation</a></li>
+      <li><a href = "#!" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-3">Advisory</a></li>
+   </ul>
+
+   <!-- Dropdown for sub-sections in SERVICES dropdown -->
+   <ul id="services-subsection-1" class="dropdown-content">
+      <li><a href="#">Statutory Audits</a></li>
+      <li><a href="#">VAT Audits</a></li>
+      <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+   </ul>
+
+   <ul id="services-subsection-2" class="dropdown-content">
+      <li><a href="#">Direct Taxation - Consultancy & Advisory</a></li>
+      <li><a href="#">Indirect Taxation</a></li>
+      <li><a href="#">Transfer Pricing</a></li>
+   </ul>
+
+   <ul id="services-subsection-3" class="dropdown-content">
+      <li><a href = "#">Governance & Risk Management Services</a></li>
+      <li><a href = "#">Business Advisory</a></li>
+      <li><a href = "#">Valuation</a></li>
+      <li><a href = "#">Legal & Secretarial Services</a></li>
+      <li><a href = "#">Advisory Services to NGO's</a></li>
+   </ul>
+
+   <!-- Nav bar for small and medium sized screens -->
+   <ul id = "slide-out" class = "collapsible side-nav" data-collapsible = "accordion">
+      <li>
+         <img src = "../../images/logos/1.png" class = "firm-logo-sidenav">
+      </li>
+      <li>
+         <div class = "collapsible-header">
+               <i class = "material-icons sidenav-icons left">home</i> Home
+         </div>
+      </li>
+      <li>
+         <div class = "collapsible-header" data-collapsible = "accordion"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
+         <div class = "collapsible-body">
+               <ul>
+                  <li><a href = "founders.html">Our Founders</a></li>
+                  <li><a href = "testimonials.html">Testimonials</a></li>
+                  <li><a href = "vision.html">Our Vision</a></li>
+                  <li><a href = "firm-history.html">Firm History</a></li>
+               </ul>
+         </div>
+      </li>
+      <li>
+         <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">star</i> Services</div>
+         <div class = "collapsible-body collapsible">
+               <ul class = "collapsible" data-collapsible = "accordion">
+
+                  <li>
+                     <div class = "collapsible-header">Audit & Taxation Services <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                     <div class = "collapsible-body">
+                           <ul>
+                              <li><a href="#">Statutory Audits</a></li>
+                              <li><a href="#">VAT Audits</a></li>
+                              <li><a href="#">Due Diligence Reviews</a></li>
+                           </ul>
+                     </div>
+                  </li>
+
+                  <li>
+                     <div class = "collapsible-header">Taxation <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                     <div class = "collapsible-body">
+                           <ul class = "collapsible" data-collapsible="accordion">
+                              <li><a href = "#">Direct Taxes</a></li>
+                              <li><a href = "#">Indirect Taxes</a></li>
+                              <li><a href = "#">Transfer Pricing</a></li>
+                           </ul>
+                     </div>
+                  </li>
+
+                  <li>
+                     <div class = "collapsible-header">Advisory <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                     <div class = "collapsible-body">
+                           <ul class = "collapsible" data-collapsible="accordion">
+                              <li><a href = "#">Risk Management Services</a></li>
+                              <li><a href = "#">Business Advisory</a></li>
+                              <li><a href = "#">Valuation</a></li>
+                              <li><a href = "#">Legal & Secretarial Services</a></li>
+                              <li><a href = "#">Advisory Serices to NGO's</a></li>
+                           </ul>
+                     </div>
+                  </li>
+
+               </ul>
+         </div>
+      </li>
+      <li>
+         <div class = "collapsible-header">
+               <i class = "material-icons sidenav-icons left">notifications</i> News
+         </div>
+      </li>
+      <li>
+         <div class = "collapsible-header">
+               <i class = "material-icons sidenav-icons left">business_center</i> Careers
+         </div>
+      </li>
+      <li>
+         <div class = "collapsible-header">
+               <i class = "material-icons sidenav-icons left">call</i> Contact
+            </div>
+      </li>
+   </ul>
+
+   <!-- Trigger button for sidenav -->
+   <nav id = "small-screen-nav" class="hide-on-large-only">
+      <div class = "nav-wrapper">
+         <ul id = "nav-mobile">
+               <li>
+                  <a href="#" data-activates="slide-out" class = "button-collapse"><i class="material-icons">menu</i></a>
+               </li>
+               <li class = "right sidenav-follow-links"><i class = "fa fa-facebook"></i></li>
+               <li class = "right sidenav-follow-links"><i class = "fa fa-linkedin"></i></li>
+               <li class = "right sidenav-follow-links"><i class = "fa fa-twitter"></i></li>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- Sub nav -->
+   <!-- This is only visible in large screens -->
+   <nav id = "sub-nav" class = "hide-on-med-and-down">
+      <div class = "nav-wrapper">
+         <ul id = "nav-mobile">
+               <li>
+                  <i class = "material-icons left">call</i>+9845324139
+               </li>
+               
+               <li>
+                  <span class = "slash"> / </span>
+               </li>
+
+               <li>
+                  <i class = "left material-icons"> email</i>ltassociates@outlook.in
+               </li>
+
+               <li class = "right sub-nav-follow-links"><i class = "fa fa-facebook"></i></li>
+               <li class = "right sub-nav-follow-links"><i class = "fa fa-linkedin"></i></li>
+               <li class = "right sub-nav-follow-links"><i class = "fa fa-twitter"></i></li>
+         </ul>
+      </div>
+   </nav>
+
+   <div class = "intro-container valign-wrapper">
+      <div class = "intro-container-wrapper valign-wrapper">
+         <div style = "width: 100%">
+               <p class = "page-heading">Our Vision</p>
+               <p class = "page-position">
+                  <span class = "home"><a href = "../index.html">Home</a></span>
+                  <span class = "forward-slash"> / </span>
+                  <span class = "current-page"><a href = "vision.html">Our Vision</a></span>
+               </p>
+         </div>
+      </div>
+   </div>
+
+   <br><br><br><br>
+   <br><br><br><br>
+   <br><br><br><br>
+
+   <div class = "footer-container">
+      <div class = "footer-wrapper">
+         <div class = "footer-content">
+               <p class = "footer-header">About Us</p>
+               <hr class = "footer-hr left">
+
+               <br>
+               <p class = "footer-content">Our Founder</p>
+               <p class = "footer-content">Testimonials</p>
+               <p class = "footer-content">Firm History</p>
+               <p class = "footer-content">Our Vision</p>
+         </div>
+
+         <div>
+               <p class = "footer-header">Services</p>
+               <hr class = "footer-hr">
+
+               <br>
+
+               <p class = "footer-content">Audit & Taxation Services</p>
+               <p class = "footer-content">Taxation</p>
+               <p class = "footer-content">Advisory</p>
+               <p class = "footer-content">Transfer Pricing</p>
+         </div>
+         
+         <div>
+               <p class = "footer-header">Contact Information</p>
+               <hr class = "footer-hr">
+
+               <br>
+
+               <p class = "footer-content">Head Office: ||| F1/7 Nehru Nagar, Rakesh Mall, Ghaziabad - 201001</p>
+               <p class = "footer-content">Branch Office: Gali No. 3 Khatkahata Baba Colony, Etawah - 206001</p>
+               <p class = "footer-content">Email: ltassociates@outlook.in</p>
+               <p class = "footer-content">Phone: 9717891049</p>
+         </div>
+
+         <div>
+               <p class = "footer-content">All rights reserved</p>
+         </div> 
+
+         <div class = "valign-wrapper">
+               <div style = "display:block; margin:0 auto">
+                  <i class = "center fa fa-facebook footer-follow-icons"></i>
+                  <i class = "center fa fa-twitter footer-follow-icons"></i>
+                  <i class = "center fa fa-linkedin footer-follow-icons"></i>
+               </div>
+         </div>
+      </div>
+   </div>
+
+   <script src = "../../externals/jquery/jquery-3.2.1.js"></script>
+   <script src = "../../externals/materialize/js/materialize.min.js"></script>
+   <script src = "../../js/innerpage-common-js.js"></script>
+</body>
+</html>

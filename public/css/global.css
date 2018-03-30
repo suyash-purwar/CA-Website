@@ -10,6 +10,10 @@ body {
 
 }
 
+a {
+   color: inherit;
+}
+
 @keyframes left {
    from {
       left: -50px;

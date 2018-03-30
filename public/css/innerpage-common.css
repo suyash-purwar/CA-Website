@@ -1,0 +1,44 @@
+.intro-container {
+	background-image: url('../images/things/common-innerpage-img.jpg');
+	background-position: bottom center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 50vh;
+	width: 100vw;
+}
+
+.intro-container-wrapper {
+	background-color: rgba(22, 34, 49, 0.6);
+	width: inherit;
+	height:  inherit;
+}
+
+.page-heading {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.page-position {
+	text-align:center;
+	color: white;
+}
+
+.home {
+	color: lightgrey;
+}
+
+@media only screen and (max-width: 992px) {
+	.page-heading {
+		font-size: 50px;
+		line-height: 4px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.page-heading {
+		font-size: 40px;
+		line-height: normal;
+	}
+}

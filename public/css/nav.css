@@ -195,6 +195,7 @@ nav#sub-nav {
 #sub-nav .nav-wrapper #nav-mobile > li {
    color: white;
    font-size: 16px;
+   cursor: pointer;
    font-family: 'Quicksand', sans-serif
 }
 

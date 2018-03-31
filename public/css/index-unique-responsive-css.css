@@ -84,12 +84,12 @@
 }
 
 @media only screen and (max-width: 460px) {
-   p.carousel-text-head {
-      font-size: 45px !important;
+   .carousel-text-content {
+      font-size: 17px !important;
    }
 
-   p.carousel-text-content {
-      font-size: 17px;
+   p.carousel-text-head {
+      font-size: 43px !important;
    }
 
    p.welcome-section-heading {
@@ -98,5 +98,32 @@
 
    .quality-container-position {
       padding: 10px 0px;
+   }
+
+   p.welcome-section-heading {
+      font-size: 30px;
+   }
+
+   .QA-section-header,
+   .services-section-header,
+   .map-header,
+   .contactus-header {
+      font-size: 28px;
+   }
+
+   .question,
+   .question-on-small-and-med {
+      font-size: 23px
+   }
+
+   .question::before,
+   .question-on-small-and-med::before {
+      font-size: 25px;
+   }
+
+   .question-container-1,
+   .question-container-3,
+   .question-container-2 {
+      grid-gap: 1px;
    }
 }

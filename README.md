@@ -1,4 +1,4 @@
-# LT & ASSOCIATES
+# kLT & ASSOCIATES
 
 This is a website I am developing for my client for his CA Firm. This websites comes with a royal blue and white color theme. This website is blazingly fast because all of its images are compressed and there format is .png, which is the recomended format of images for web browsers. In this website, messages sent by users lands in this company's email instead of getting saved in any database. This website is end to end responsive.
 

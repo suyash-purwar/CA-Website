@@ -1,8 +1,10 @@
 # kLT & ASSOCIATES
 
-This is a website I am developing for my client for his CA Firm. This websites comes with a royal blue and white color theme. This website is blazingly fast because all of its images are compressed and there format is .png, which is the recomended format of images for web browsers. In this website, messages sent by users lands in this company's email instead of getting saved in any database. This website is end to end responsive.
+This is a website developed for a CA Firm of a client. The website comes with a royal blue and white color theme. It is  fast as all images are compressed using png, which is recommended for web images. 
 
-### Technical Stuff
+This website is end to end responsive - messages sent by users land in company's email instead of being saved in database.
+
+### Technical Related
 
 * HTML
 * CSS
@@ -15,16 +17,20 @@ This is a website I am developing for my client for his CA Firm. This websites c
 
 ### Features
 
-* Comes with royal blue and white theme
+* Royal blue and white theme
 * Fast loading
 * Beautiful UI and UX
 * Smooth animations
-* Rich feature like dragging
-* Looks perfect on every screen size
+* Rich features
+* Perfect visualization for all screen sizes
 * Support on older browsers
 
 ### How to run ?
 
-Its easy as opening your PC. Clone this project in your PC. Open terminal and download all the dependencies by writting ```npm install``` and then write ```npm run start-dev```. Voila! website is up on port 3000. Now, Open your browser and type ```locahost:3000```. Congrats! Website is started.
+* Clone this project in your PC. 
+* Open terminal and download all the dependencies by writting ```npm install``` 
+* Write ```npm run start-dev```. Website will be up on port 3000.
+* Open your browser and type ```locahost:3000```. 
+* Congrats! Website is started.
 
 ###### Give it a star, if you like this creation of mine

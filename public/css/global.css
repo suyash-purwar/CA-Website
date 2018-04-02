@@ -14,26 +14,6 @@ a {
    color: inherit;
 }
 
-@keyframes left {
-   from {
-      left: -50px;
-   } 
-
-   to {
-      left: 0px;
-   }
-}
-
-@keyframes right {
-   from {
-      right: -50px;
-   }
-
-   to {
-      right: 0px;
-   }
-}
-
 @keyframes top {
    from {
       top: -30px;
@@ -43,17 +23,6 @@ a {
       top: 0px;
    }
 }
-
-@keyframes bottom {
-   from {
-      bottom: -30px;
-   }
-
-   to {
-      bottom: 0px;
-   }
-}
-
 
 hr.stylish-hr-white {
    border-color: white;

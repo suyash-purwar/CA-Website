@@ -7,33 +7,59 @@
    <title>Founders | LT & ASSOCIATES</title>
 
    <style type = "text/css">
-      /* Styles for preloader */
+		/* This is the css which is common in each page of a website */
+		/* Changes in this css files will show effects in each page of a website */
 
-      .overlay {
-         z-index: 9999;
-         position: fixed;
-         background-color: white;
-         width: 100vw;
-         height: 100vh;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-      }
+		@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+		body {
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+
+		}
+
+		a {
+			color: inherit;
+		}
+
+		@keyframes top {
+			from {
+				top: -30px;
+			} 
+			
+			to {
+				top: 0px;
+			}
+		}
+
+		hr.stylish-hr-white {
+			border-color: white;
+			width: 80px;
+			color: white;
+		}
+
+		hr.stylish-hr-blue {
+			border-color: rgb(22, 34, 49);
+			width: 80px;
+
+			/*background-color: rgb(22, 34, 49)*/
+		}
+
+		p.sub-text {
+			font-size: 16px;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-style: italic;
+			color: grey;
+			/*line-height: 1px;*/
+			text-align: center;
+		}
    </style>
-
-   <script>
-      // Script for loader
-      window.addEventListener('load', () => {
-         document.getElementById('loader-overlay').style.display = "none";
-      });
-   </script>
-
-   <link rel = "stylesheet" href = "../../externals/materialize/css/materialize.css">
-   <link rel = "stylesheet" href = "../../css/global.css">
-   <link rel = "stylesheet" href = "../../css/nav.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+	<link rel = "stylesheet" href = "../../css/nav.css">
+	<link rel = "stylesheet" href = "../../css/innerpage-common.css">
    <link rel = "stylesheet" href = "../../css/contactus.css">
    <link rel = "stylesheet" href = "../../css/footer.css">
-   <link rel = "stylesheet" href = "../../css/innerpage-common.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -64,24 +90,7 @@
    <![endif]-->
 </head>
 <body>
-    <!-- Pre Loader -->
-   <div class = "overlay" id = "loader-overlay">
-      <div class = "preloader-wrapper big active">
-         <div class = "spinner-layer" style = "border-color: #1A2A5A;">
-               <div class = "circle-clipper left">
-                  <div class = "circle"></div>
-               </div>
 
-               <div class = "gap-patch">
-                  <div class = "circle"></div>
-               </div>
-
-               <div class = "circle-clipper right">
-                  <div class = "circle"></div>
-               </div>
-         </div>
-      </div>
-   </div>
     <!-- Nav -->
    <nav id = "large-screen-nav" class = "hide-on-med-and-down">
       <div class = "nav-wrapper">
@@ -339,8 +348,9 @@
       </div>
    </div>
 
-   <script src = "../../externals/jquery/jquery-3.2.1.js"></script>
-   <script src = "../../externals/materialize/js/materialize.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
    <script src = "../../js/innerpage-common-js.js"></script>
 </body>
 </html>

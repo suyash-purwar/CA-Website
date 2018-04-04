@@ -24,6 +24,7 @@ This website is end to end responsive - messages sent by users land in company's
 * Rich features
 * Perfect visualization for all screen sizes
 * Support on older browsers
+* Sharing Feature
 
 ### How to run ?
 

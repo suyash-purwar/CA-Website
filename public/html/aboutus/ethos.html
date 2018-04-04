@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Testimonials | LT & ASSOCIATES</title>
+   <title>Our Ethos | LT & ASSOCIATES</title>
 
    <style type = "text/css">
       /* This is the css which is common in each page of a website */
@@ -13,14 +13,14 @@
       @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
 
       body {
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
 
       }
 
       a {
-      color: inherit !important;
+         color: inherit !important;   
       }
 
       @keyframes top {
@@ -34,35 +34,75 @@
       }
 
       hr.stylish-hr-white {
-      border-color: white;
-      width: 80px;
-      color: white;
+         border-color: white;
+         width: 80px;
+         color: white;
       }
 
       hr.stylish-hr-blue {
-      border-color: rgb(22, 34, 49);
-      width: 80px;
+         border-color: rgb(22, 34, 49);
+         width: 80px;
 
-      /*background-color: rgb(22, 34, 49)*/
+         /*background-color: rgb(22, 34, 49)*/
       }
 
       p.sub-text {
-      font-size: 16px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-style: italic;
-      color: grey;
-      /*line-height: 1px;*/
-      text-align: center;
-      }
-   </style>
+         font-size: 16px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-style: italic;
+         color: grey;
+         /*line-height: 1px;*/
+         text-align: center;
+		}
+		
+		.sharing-container {
+			padding: 20px 0px;
+			background: rgb(22, 34, 49)
+		}
 
+		.facebook, .facebook:hover {
+			background-color: #3B5998 !important;
+			color: white;
+		}
+
+		.google, .google:hover {
+			background-color: #DB4437 !important;
+			color: white;
+		}
+
+		.twitter, .twitter:hover {
+			background-color: #1DA1F2 !important;
+			color: white;
+		}
+
+		.linkedin, .linkedin:hover {
+			background-color: #0077b5 !important;
+			color: white;
+		}
+
+		.whatsapp, .whatsapp:hover {
+			background-color: #25D366 !important;
+			color: white
+		}
+
+		.facebook > i,
+		.google > i,
+		.twitter > i,
+		.linkedin > i,
+		.whatsapp > i{
+			font-size: 15px !important;
+		}
+	</style>
+	
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
-   <link rel = "stylesheet" href = "../../css/nav.css">
-   <link rel = "stylesheet" href = "../../css/innerpage-common.css">
+	<link rel = "stylesheet" href = "../../css/nav.css">
+	<link rel = "stylesheet" href = "../../css/innerpage-common.css">
+	<link rel = "stylesheet" href = "../../css/etho.css">
    <link rel = "stylesheet" href = "../../css/contactus.css">
    <link rel = "stylesheet" href = "../../css/footer.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ac4f51b003b52001341b3d4&product=custom-share-buttons"></script>
 
    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../images/favicon/apple-touch-icon-57x57.png" />
    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/favicon/apple-touch-icon-114x114.png" />
@@ -99,27 +139,27 @@
             <img src = "../../images/logos/1.png" class = "firm-logo">
          </a>
          <ul id = "nav-mobile" class = "right">
-            <li>
+            <li class = "waves-effect waves-light">
                   <a href = "../index.html">HOME</a>
             </li>  
 
             <li>
-               <a class = "dropdown-button" data-contrainwidth = "false" data-alignment="right" data-gutter = "30" data-beloworigin = "true" href = "#!" data-activates = "aboutus">ABOUT US</a>
+               <a class = "waves-effect waves-light dropdown-button" data-contrainwidth = "false" data-alignment="right" data-gutter = "30" data-beloworigin = "true" href = "#!" data-activates = "aboutus">ABOUT US</a>
             </li>
 
             <li>
-               <a class = "dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "services" href = "#!">SERVICES</a>
+               <a class = "waves-effect waves-light dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "services" href = "#!">SERVICES</a>
             </li>
 
-            <li>
+            <li class = "waves-effect waves-light">
                <a href = "#">NEWS</a>
             </li>
 
-            <li>
+            <li class = "waves-effect waves-light">
                <a href = "#">CAREERS</a>
             </li>
 
-            <li>
+            <li class = "waves-effect waves-light">
                <a href = "#">CONTACT</a>
             </li>
          </ul>
@@ -129,37 +169,28 @@
    <!-- Dropdown for ABOUT US -->
    <ul id="aboutus" class = "dropdown-content">
       <li><a href = "team.html">Our Team</a></li>
-      <li><a href = "testimonials.html">Testimonials</a></li>
-      <li><a href = "vision.html">Our Vision</a></li>
+      <li><a href = "ethos.html">Our Ethos</a></li>
       <li><a href = "firm-history.html">Firm History</a></li>
    </ul>
    
    <!-- Dropdown for SERVICES -->
    <ul id="services" class = "dropdown-content">
-      <li><a href = "#!" class = "dropdown-button" data-hover = "hover" data-alignment = "left" data-activates="services-subsection-1">Audit & Taxation Services</a></li>
-      <li><a href = "#!" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-2">Taxation</a></li>
-      <li><a href = "#!" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-3">Advisory</a></li>
+		<li><a href = "#!">Corporate Services</a></li>
+		<li><a href = "#!">Audit & Assurance Services</a></li>
+		<li><a href = "#!">Book Keeping & Outsourcing Services</a></li>
+		<li><a href = "#!" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-1">Taxation</a></li>
+		<li><a href = "#!" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-2">Risk Advisory Services</a></li>
    </ul>
 
    <!-- Dropdown for sub-sections in SERVICES dropdown -->
    <ul id="services-subsection-1" class="dropdown-content">
-      <li><a href="#">Statutory Audits</a></li>
-      <li><a href="#">VAT Audits</a></li>
-      <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+		<li class = "waves-effect waves-light"><a href="#">Direct Taxation</a></li>
+		<li class = "waves-effect waves-light"><a href="#">Indirect Taxation</a></li>
    </ul>
 
    <ul id="services-subsection-2" class="dropdown-content">
-      <li><a href="#">Direct Taxation - Consultancy & Advisory</a></li>
-      <li><a href="#">Indirect Taxation</a></li>
-      <li><a href="#">Transfer Pricing</a></li>
-   </ul>
-
-   <ul id="services-subsection-3" class="dropdown-content">
-      <li><a href = "#">Governance & Risk Management Services</a></li>
-      <li><a href = "#">Business Advisory</a></li>
-      <li><a href = "#">Valuation</a></li>
-      <li><a href = "#">Legal & Secretarial Services</a></li>
-      <li><a href = "#">Advisory Services to NGO's</a></li>
+		<li class = "waves-effect waves-light"><a href = "#">Internal & Management Audits</a></li>
+		<li class = "waves-effect waves-light"><a href = "#">Other Services</a></li>
    </ul>
 
    <!-- Nav bar for small and medium sized screens -->
@@ -177,8 +208,7 @@
          <div class = "collapsible-body">
                <ul>
                   <li><a href = "team.html">Our Team</a></li>
-                  <li><a href = "testimonials.html">Testimonials</a></li>
-                  <li><a href = "vision.html">Our Vision</a></li>
+                  <li><a href = "ethos.html">Our Ethos</a></li>
                   <li><a href = "firm-history.html">Firm History</a></li>
                </ul>
          </div>
@@ -188,40 +218,37 @@
          <div class = "collapsible-body collapsible">
                <ul class = "collapsible" data-collapsible = "accordion">
 
-                  <li>
-                     <div class = "collapsible-header">Audit & Taxation Services <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
-                     <div class = "collapsible-body">
-                           <ul>
-                              <li><a href="#">Statutory Audits</a></li>
-                              <li><a href="#">VAT Audits</a></li>
-                              <li><a href="#">Due Diligence Reviews</a></li>
-                           </ul>
-                     </div>
-                  </li>
+						<li>
+							<div class = "collapsible-header">Corporate Services</div>
+						</li>
+
+						<li>
+							<div class = "collapsible-header">Audit & Assurance Services</div>
+						</li>
+
+						<li>
+							<div class = "collapsible-header">Book Keeping & Outsourcing Services</div>
+						</li>
 
                   <li>
                      <div class = "collapsible-header">Taxation <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
                      <div class = "collapsible-body">
                            <ul class = "collapsible" data-collapsible="accordion">
-                              <li><a href = "#">Direct Taxes</a></li>
-                              <li><a href = "#">Indirect Taxes</a></li>
-                              <li><a href = "#">Transfer Pricing</a></li>
+                              <li><a href = "#">Direct Taxation</a></li>
+                              <li><a href = "#">Indirect Taxation</a></li>
                            </ul>
                      </div>
-                  </li>
-
-                  <li>
-                     <div class = "collapsible-header">Advisory <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
-                     <div class = "collapsible-body">
-                           <ul class = "collapsible" data-collapsible="accordion">
-                              <li><a href = "#">Risk Management Services</a></li>
-                              <li><a href = "#">Business Advisory</a></li>
-                              <li><a href = "#">Valuation</a></li>
-                              <li><a href = "#">Legal & Secretarial Services</a></li>
-                              <li><a href = "#">Advisory Serices to NGO's</a></li>
-                           </ul>
-                     </div>
-                  </li>
+						</li>
+						
+						<li>
+							<div class = "collapsible-header">Risk Advisory Services <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+							<div class = "collapsible-body">
+									<ul>
+										<li><a href = "#">Internal & Management Audits</a></li>
+										<li><a href = "#">Other Services</a></li>
+									</ul>
+							</div>
+						</li>
 
                </ul>
          </div>
@@ -284,19 +311,95 @@
    <div class = "intro-container valign-wrapper">
       <div class = "intro-container-wrapper valign-wrapper">
          <div style = "width: 100%">
-               <p class = "page-heading">Testimonials</p>
+               <p class = "page-heading">Our Ethos</p>
                <p class = "page-position">
                   <span class = "home"><a href = "../index.html">Home</a></span>
                   <span class = "forward-slash"> / </span>
-                  <span class = "current-page"><a href = "testimonials.html">Testimonials</a></span>
+                  <span class = "current-page"><a href = "ethos.html">Our Ethos</a></span>
                </p>
          </div>
       </div>
    </div>
 
-   <br><br><br><br>
-   <br><br><br><br>
-   <br><br><br><br>
+	<div class = "ethos-container-wrapper">
+		<div class = "etho-container valign-wrapper vision">
+			<div class = "etho-image">
+				<img src = "../../images/ethosicons/visibility.png">
+			</div>
+
+			<div class = "etho-content">
+				<p class = "etho-header">Our Vision</p>
+				<hr class = "etho-hr">	<br>
+				<p class = "etho-description">LT & Associates shall be a leader in providing high quality services in the field of Audit and Assurance, Accounting, Tax and Business Advisory to domestic and international clients. The firm would have presence in principal cities of India and would develop niche areas for the future growth of the</p>
+			</div>
+		</div>
+
+		<div class = "etho-container valign-wrapper mission">
+			<div class = "etho-image etho-icon-2-small">
+					<img src = "../../images/ethosicons/target.png">
+			</div>
+
+			<div class = "etho-content">
+				<p class = "etho-header" style = "text-align: right">Our Mission</p>
+				<hr class = "etho-hr" style = "float: right">	<br>
+				<p class = "etho-description" style = "text-align: right">To deliver services in a timely manner. To create value for our clients. To maintain our personal relationships with the clients that are the foundation of our practice. To provide an enjoyable learning experience and an opportunity for growth for all our team members. To grow but never to compromise on our values of honesty and integrity.</p>
+			</div>
+
+			<div class = "etho-image etho-icon-2-large-med">
+				<img src = "../../images/ethosicons/target.png">
+			</div>
+		</div>
+
+		<div class = "etho-container valign-wrapper objective">
+			<div class = "etho-image">
+				<img src = "../../images/ethosicons/flag.png">
+			</div>
+
+			<div class = "etho-content">
+				<p class = "etho-header">Our Objective</p>
+				<hr class = "etho-hr">	<br>
+				<p class = "etho-description">Upholding the highest level of professional standards and reputation for integrity, to platform a culture of transparency and responsibility. strive to succeed by exceeding client expectations of affordability, quality and time-bound delivery schedules, focusing on the continuous development and collaborative growth.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class = "fixed-action-btn vertical">
+		<a class = "btn-floating white btn-large">
+			<i class = "fa fa-share-alt" style = "color:black"></i>
+		</a>
+
+		<ul>
+			<li>
+				<div data-network="facebook" class = "btn-floating st-custom-button waves-effect waves-light facebook">
+					<i class = "fa fa-facebook"></i>
+				</div>
+			</li>
+
+			<li>
+				<div data-network="twitter" class = "btn-floating st-custon-button waves-effect waves-light twitter">
+					<i class = "fa fa-twitter"></i>
+				</div>
+			</li>
+
+			<li>
+				<div data-network="linkedin" class = "btn-floating st-custom-button waves-effect linkedin waves-light">
+					<i class = "fa fa-linkedin"></i>
+				</div>
+			</li>
+
+			<li>
+				<div data-network="whatsapp" class = "btn-floating st-custom-button waves-effect waves-light">
+					<i class = "fa fa-whatsapp"></i>
+				</div>
+			</li>
+
+			<li>
+				<div data-network="googleplus" class = "btn-floating st-custom-button waves-effect google waves-light">
+					<i class = "fa fa-google-plus"></i>
+				</div>
+			</li>
+		</ul>
+	</div>
 
    <div class = "footer-container">
       <div class = "footer-wrapper">
@@ -349,7 +452,7 @@
       </div>
    </div>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
    <script src = "../../js/innerpage-common-js.js"></script>

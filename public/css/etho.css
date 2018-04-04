@@ -1,0 +1,92 @@
+.ethos-container-wrapper {
+	max-width: 1080px;
+	padding: 100px 0px;
+	margin: 0 auto;
+}
+
+.etho-container {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.vision,
+.objective  {
+	grid-template-columns: 4fr 8fr;
+}
+
+.mission {
+	grid-template-columns: 8fr 4fr;
+}
+
+.etho-image > img {
+	margin: 0 auto;
+	width: 45%;
+	display: block;
+}
+
+.etho-content {
+	color: rgb(22, 34, 49) !important;
+}
+
+.etho-header {
+	font-family: 'Quicksand', 'Bell MT';
+	font-size: 30px;
+	line-height: 3px;
+}
+
+.etho-hr {
+	float: left;
+	border-color: rgb(22, 34, 49);
+	width: 60px;
+}
+
+.etho-description {
+	font-size: 19px;
+	font-family: Cambria;
+}
+
+.etho-icon-2-small {
+	display: none;
+}
+
+.etho-icon-2-large-med {
+	display: block;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 770px) {
+	.ethos-container-wrapper {
+		padding: 30px 10px;
+	}
+
+	.vision,
+	.mission,
+	.objective {
+		grid-template-columns: 12fr;
+	}
+
+	.etho-icon-2-small {
+		display: block;
+	}
+
+	.etho-icon-2-large-med {
+		display: none;
+	}
+
+	.etho-image > img {
+		width: 20%;
+	}
+
+	.etho-hr {
+		float: none !important;
+	}
+
+	.etho-header {
+		text-align: center !important;
+	}
+
+	.etho-description {
+		text-align: center !important;
+	}
+}

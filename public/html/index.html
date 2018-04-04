@@ -52,6 +52,45 @@
         /*line-height: 1px;*/
         text-align: center;
         }
+
+        .sharing-container {
+            padding: 20px 0px;
+            background: rgb(22, 34, 49)
+        }
+
+        .facebook, .facebook:hover {
+            background-color: #3B5998 !important;
+            color: white;
+        }
+
+        .google, .google:hover {
+            background-color: #DB4437 !important;
+            color: white;
+        }
+
+        .twitter, .twitter:hover {
+            background-color: #1DA1F2 !important;
+            color: white;
+        }
+
+        .linkedin, .linkedin:hover {
+            background-color: #0077b5 !important;
+            color: white;
+        }
+
+        .whatsapp, .whatsapp:hover {
+            background-color: #25D366 !important;
+            color: white
+        }
+
+        .facebook > i,
+        .google > i,
+        .twitter > i,
+        .linkedin > i,
+        .whatsapp > i{
+            font-size: 15px !important;
+        }
+
    </style>
 
    
@@ -63,6 +102,7 @@
     <link rel = "stylesheet" href = "/css/index-unique-responsive-css.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ac4f51b003b52001341b3d4&product=custom-share-buttons"></script>
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png" />
@@ -369,7 +409,7 @@
             <div class = "QA-container">
                 <div class = "question-container-1 valign-wrapper">
                     <p class = "question">Who we are?</p>
-                    <p class = "answer">We are a chartered accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. We offer our services in National Capital Region & Etawah.</p>
+                    <p class = "answer">We are a chartered accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. We offer our services across the country from our offices situated at Ghaziabad and Etawah.</p>
                 </div>
 
                 <div class = "question-container-2 valign-wrapper">
@@ -525,6 +565,7 @@
     </div>
 
 
+
     <div class = "contactus-section-superparent">
         <div style = "background-color: rgba(149, 226, 231, 0.274)">
             <div class = "contactus-header-wrapper">
@@ -568,6 +609,50 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- <div class = "sharing-container">
+        <div data-network = "facebook" class="st-custom-button">share</div> 
+        <div data-network = "twitter" class="st-custom-button">tweet</div>
+    </div> -->
+
+    <div class = "fixed-action-btn vertical">
+        <a class = "btn-floating white btn-large">
+            <i class = "fa fa-share-alt" style = "color:black"></i>
+        </a>
+
+        <ul>
+
+            <li>
+                <div data-network="facebook" class = "btn-floating st-custom-button waves-effect waves-light facebook">
+                    <i class = "fa fa-facebook"></i>
+                </div>
+            </li>
+
+            <li>
+                <div data-network="twitter" class = "btn-floating st-custon-button waves-effect waves-light twitter">
+                    <i class = "fa fa-twitter"></i>
+                </div>
+            </li>
+
+            <li>
+                <div data-network="linkedin" class = "btn-floating st-custom-button waves-effect linkedin waves-light">
+                    <i class = "fa fa-linkedin"></i>
+                </div>
+            </li>
+
+            <li>
+                <div data-network="whatsapp" class = "btn-floating st-custom-button waves-effect waves-light">
+                    <i class = "fa fa-whatsapp"></i>
+                </div>
+            </li>
+
+            <li>
+                <div data-network="googleplus" class = "btn-floating st-custom-button waves-effect google waves-light">
+                    <i class = "fa fa-google-plus"></i>
+                </div>
+            </li>
+        </ul>
     </div>
 
     <div class = "footer-container">

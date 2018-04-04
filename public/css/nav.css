@@ -18,7 +18,7 @@ nav#large-screen-nav {
 
 .firm-logo {
   padding: 10px;
-  width: 25%;
+  width: 20%;
 }
 
 li a {
@@ -164,8 +164,8 @@ nav#sub-nav {
    box-shadow: none;
    z-index: 15;
    position: absolute;
-   background-color: transparent;
-   border-bottom: 1px dotted white;
+   background-color: rgb(22, 34, 49, 0.3);
+   /* border-bottom: 1px dotted rgb(22, 34, 49); */
 }
 
 .subnav-phone-link {
@@ -177,7 +177,7 @@ nav#sub-nav {
 }
 
 .slash {
-   color: rgba(241, 233, 233, 0.781);
+   color: white;
    font-size: 18px;
    padding: 10px;
 }

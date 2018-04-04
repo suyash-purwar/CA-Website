@@ -4,6 +4,10 @@
       font-size: 55px !important;
    }
 
+   .carousel3 {
+      background-image: url('../images/slideshow/b-small.png');
+      background-position: top right;
+   }
 
    .caption > div {
       padding: 0 10px;

@@ -18,7 +18,7 @@
         }
 
         a {
-        color: inherit;
+        color: inherit !important;
         }
 
         @keyframes top {
@@ -129,7 +129,7 @@
     
     <!-- Dropdown for ABOUT US -->
     <ul id="aboutus" class = "dropdown-content">
-        <li><a href = "/html/aboutus/founders.html">Our Founders</a></li>
+        <li><a href = "/html/aboutus/team.html">Our Team</a></li>
         <li><a href = "/html/aboutus/testimonials.html">Testimonials</a></li>
         <li><a href = "/html/aboutus/vision.html">Our Vision</a></li>
         <li><a href = "/html/aboutus/firm-history.html">Firm History</a></li>
@@ -137,30 +137,22 @@
     
     <!-- Dropdown for SERVICES -->
     <ul id="services" class = "dropdown-content">
-        <li><a href = "#!" class = "dropdown-button" data-hover = "hover" data-alignment = "left" data-activates="services-subsection-1">Audit & Taxation Services</a></li>
-        <li><a href = "#!" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-2">Taxation</a></li>
-        <li><a href = "#!" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-3">Advisory</a></li>
+        <li><a href = "#!">Corporate Services</a></li>
+        <li><a href = "#!">Audit & Assurance Services</a></li>
+        <li><a href = "#!">Book Keeping & Outsourcing Services</a></li>
+        <li><a href = "#!" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates="services-subsection-1">Taxation</a></li>
+        <li><a href = "#!" data-hover = "hover" data-alignment="right" class = "dropdown-button" data-activates = "services-subsection-2">Risk Advisory Services</a></li>
     </ul>
 
     <!-- Dropdown for sub-sections in SERVICES dropdown -->
     <ul id="services-subsection-1" class="dropdown-content">
-        <li><a href="#">Statutory Audits</a></li>
-        <li><a href="#">VAT Audits</a></li>
-        <li><a href="#">Due Diligence Reviews & Investigations</a></li>
+        <li><a href="#">Direct Taxation</a></li>
+        <li><a href="#">Indirect Taxation</a></li>
     </ul>
 
     <ul id="services-subsection-2" class="dropdown-content">
-        <li><a href="#">Direct Taxation - Consultancy & Advisory</a></li>
-        <li><a href="#">Indirect Taxation</a></li>
-        <li><a href="#">Transfer Pricing</a></li>
-    </ul>
-
-    <ul id="services-subsection-3" class="dropdown-content">
-        <li><a href = "#">Governance & Risk Management Services</a></li>
-        <li><a href = "#">Business Advisory</a></li>
-        <li><a href = "#">Valuation</a></li>
-        <li><a href = "#">Legal & Secretarial Services</a></li>
-        <li><a href = "#">Advisory Services to NGO's</a></li>
+        <li><a href = "#">Internal & Management Audits</a></li>
+        <li><a href = "#">Other Services</a></li>
     </ul>
 
     <!-- Nav bar for small and medium sized screens -->
@@ -177,7 +169,7 @@
             <div class = "collapsible-header" data-collapsible = "accordion"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
             <div class = "collapsible-body">
                 <ul>
-                    <li><a href = "/html/aboutus/founders.html">Our Founders</a></li>
+                    <li><a href = "/html/aboutus/team.html">Our Team</a></li>
                     <li><a href = "/html/aboutus/testimonials.html">Testimonials</a></li>
                     <li><a href = "/html/aboutus/vision.html">Our Vision</a></li>
                     <li><a href = "/html/aboutus/firm-history.html">Firm History</a></li>
@@ -190,40 +182,36 @@
                 <ul class = "collapsible" data-collapsible = "accordion">
 
                     <li>
-                        <div class = "collapsible-header">Audit & Taxation Services <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
-                        <div class = "collapsible-body">
-                            <ul>
-                                <li><a href="#">Statutory Audits</a></li>
-                                <li><a href="#">VAT Audits</a></li>
-                                <li><a href="#">Due Diligence Reviews</a></li>
-                            </ul>
-                        </div>
+                        <div class = "collapsible-header">Corporate Services</div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">Audit & Assurance Services</div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">Book Keeping & Outsourcing Services</div>
                     </li>
 
                     <li>
                         <div class = "collapsible-header">Taxation <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
                         <div class = "collapsible-body">
-                            <ul class = "collapsible" data-collapsible="accordion">
-                                <li><a href = "#">Direct Taxes</a></li>
-                                <li><a href = "#">Indirect Taxes</a></li>
-                                <li><a href = "#">Transfer Pricing</a></li>
+                            <ul>
+                                <li><a href="#">Direct Taxation</a></li>
+                                <li><a href="#">Indirect Taxation</a></li>
                             </ul>
                         </div>
                     </li>
 
                     <li>
-                        <div class = "collapsible-header">Advisory <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                        <div class = "collapsible-header">Risk Advisory Services<i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
                         <div class = "collapsible-body">
                             <ul class = "collapsible" data-collapsible="accordion">
-                                <li><a href = "#">Risk Management Services</a></li>
-                                <li><a href = "#">Business Advisory</a></li>
-                                <li><a href = "#">Valuation</a></li>
-                                <li><a href = "#">Legal & Secretarial Services</a></li>
-                                <li><a href = "#">Advisory Serices to NGO's</a></li>
+                                <li><a href = "#">Internal & Management Audits</a></li>
+                                <li><a href = "#">Other Services</a></li>
                             </ul>
                         </div>
                     </li>
-
                 </ul>
             </div>
         </li>
@@ -285,22 +273,22 @@
    <!-- Carousel -->
    <!-- This carousel is responsive -->
     <div class = "carousel carousel-slider center" data-indicators = "true">
-        <div class = "carousel-item center-align">
-            <div class="caption center valign-wrapper carousel2">
-                <div>
-                    <p class = "carousel-text-head">LT & ASSOCIATES</p>
-                    <hr class = "carousel_hr">                    
-                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
-                </div>
-            </div>
-        </div>
-
         <div class = "carousel-item carousel1">
             <div class="caption valign-wrapper">
                 <div>
                     <p class = "carousel-text-head">LT & ASSOCIATES</p>
                     <hr class = "carousel_hr">                    
-                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                    <p class = "carousel-text-content">Our unique business model aims at delivering customized tailored solutions and services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "carousel-item center-align">
+            <div class="caption center valign-wrapper carousel2">
+                <div>
+                    <p class = "carousel-text-head">LT & ASSOCIATES</p>
+                    <hr class = "carousel_hr">                    
+                    <p class = "carousel-text-content">We strive to succeed by exceeding client expectations of affordability, quality and time-bound delivery schedules.</p>
                 </div>
             </div>
         </div>
@@ -310,17 +298,7 @@
                 <div>
                     <p class = "carousel-text-head">LT & ASSOCIATES</p>
                     <hr class = "carousel_hr">
-                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
-                </div>
-            </div>
-        </div>
-
-        <div class = "carousel-item">
-            <div class="caption valign-wrapper carousel4">
-                <div>
-                    <p class = "carousel-text-head">LT & ASSOCIATES</p>
-                    <hr class = "carousel_hr">                    
-                    <p class = "carousel-text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim itaque atque voluptates perferendis nobis aliquam tenetur eligendi iure doloremque, ut architecto ex! Cumque amet odio sit possimus veritatis accusamus?</p>
+                    <p class = "carousel-text-content">We believe in continuous development and collaborative growth.We platform a culture of transparency and responsibility.</p>
                 </div>
             </div>
         </div>
@@ -344,15 +322,15 @@
         <img src = "/images/things/underline.png" class = "underline">
 
         <p class = "welcome-section-content">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit adipisci sint nisi iste unde recusandae quam. Deleniti, rerum reiciendis, vero incidunt, neque dolorum libero consequuntur dolorem ex adipisci impedit nisi.
+            LT & Associates has been established in December 2017 in form of a partnership firm holding FRN 024076C and having its Head Office at Ghaziabad and Branch office at Etawah by two qualified Chartered Accountants, CA Tapas Purwar & CA Lokesh Gupta. 
         </p>
 
         <p class = "welcome-section-content">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus harum perferendis dolor accusantium. Ratione nisi, alias sapiente ullam voluptatum vitae adipisci? Pariatur ducimus officiis impedit magnam doloremque autem omnis tenetur magni velit obcaecati error temporibus laborum aut porro enim, nihil repellendus, aliquid in laudantium recusandae quam. Obcaecati quod sunt voluptatibus ut mollitia iure expedita aut quaerat commodi, omnis enim ullam!
+            It is a chartered accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. 
         </p>
 
         <p class = "welcome-section-content hide-on-small-only">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum unde ipsa, quas dignissimos cupiditate ex esse? Reprehenderit, numquam. Sint, enim!
+            The firm represents a combination of specialized skills, which are geared to offers sound financial advice and personalized proactive services. Following the top corporate culture, we believe in delivering accurate, relevant and timely information to the decision makers using industry expertise. We help companies to stay compliant and lawful. We aim at applying intelligence and expertise by providing realistic solutions to complicated business scenarios using analytical skills, functional expertise and intensive training. Our result oriented and success driven partners believes in providing equal services to clients of all sizes.
         </p>
     </div>
 
@@ -363,19 +341,19 @@
                 <div id = "quality-card" style = "border-right: 1px dashed white">
                     <i class = "material-icons">extension</i>
                     <p class = "quality-card-heading">Our Vision</p>
-                    <p class = "quality-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Err maxime cum rerum unde, facere veniam? Iusto laudantium a vero quo, voluptas incidunt, natus cum deleniti, hic cupiditate ullam repellendus.</p>
+                    <p class = "quality-card-description">LT & Associates shall be a leader in providing high quality services in the field of Audit and Assurance, Accounting, Tax and Business Advisory to domestic and international clients. The firm would have presence in principal cities of India and would develop niche areas for the future growth of the firm.</p>
                 </div>
 
                 <div id = "quality-card">
                     <i class = "material-icons">flash_on</i>
                     <p class = "quality-card-heading">Our Mision</p>
-                    <p class = "quality-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos maxime cum rerum unde, faeniam? Iusto laudantium a vero quo, voluptas incidunt, natus cum deleniti, hic cupiditate ullam repellendus bratva isla de pelegostos.</p>
+                    <p class = "quality-card-description">To deliver services in a timely manner. To create value for our clients. To maintain our personal relationships with the clients that are the foundation of our practice. To provide an enjoyable learning experience and an opportunity for growth for all our team members. To grow but never to compromise on our values of honesty and integrity.</p>
                 </div>
 
                 <div id = "quality-card" style = "border-left: 1px dashed white">
                     <i class = "material-icons">grade</i>
                     <p class = "quality-card-heading">Our Objective</p>
-                    <p class = "quality-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos maxime cum rerum unde, facere veniam? Iusto laudantium a vero quo, votas incidunt, natus cum deleniti, hic cupiditate ullam repellendus.</p>
+                    <p class = "quality-card-description">Upholding the highest level of professional standards and reputation for integrity, to platform a culture of transparency and responsibility. strive to succeed by exceeding client expectations of affordability, quality and time-bound delivery schedules, focusing on the continuous development and collaborative growth.</p>
                 </div>
             </div>
         </div>
@@ -393,7 +371,7 @@
             <div class = "QA-container">
                 <div class = "question-container-1 valign-wrapper">
                     <p class = "question">Who we are?</p>
-                    <p class = "answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium repellat odio laboriosam molestiae labore voluptates. Quidem sed, nesciunt cupiditate maiores magnam non molestias repellat fugiat ipsam quas magni incidunt assumenda repudiandae. Quas nisi doloremque voluptates perferendis quos qui eaque adipisci.</p>
+                    <p class = "answer">We are a chartered accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. We offer our services in National Capital Region & Etawah.</p>
                 </div>
 
                 <div class = "question-container-2 valign-wrapper">

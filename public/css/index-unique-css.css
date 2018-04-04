@@ -18,7 +18,7 @@
 
 .carousel1{
    background-attachment: fixed;
-   background-image: url('../images/slideshow/a.png');
+   background-image: url('../images/slideshow/a.jpg');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -34,15 +34,7 @@
 
 .carousel3 {
    background-attachment: fixed;   
-   background-image: url('../images/slideshow/c.png');
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-.carousel4 {
-   background-attachment: fixed;   
-   background-image: url('../images/slideshow/d.png');
+   background-image: url('../images/slideshow/c.jpg');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -52,7 +44,7 @@ hr.carousel_hr {
    border-width: 1px;
    width:120px;
    line-height: 1px;
-   border-color: white;
+   border-color: rgb(22, 24, 49);
 }
 
 .caption {
@@ -69,7 +61,7 @@ hr.carousel_hr {
 }
 
 .carousel-text-head {
-   color: white;
+   color: rgb(22, 34, 49);
    position: relative;
    font-size: 70px !important;
    font-family: 'Quicksand' !important;
@@ -77,7 +69,7 @@ hr.carousel_hr {
 }
 
 .carousel-text-content {
-   color: white;
+   color: rgb(22, 24, 49);
    position: relative;
    font-size: 20px !important;
    font-family: 'Raleway' !important;

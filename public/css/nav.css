@@ -120,9 +120,12 @@ ul.collapsible {
    background-color: white !important;
 }
 
-.collapsible-body > ul > li > .collapsible-header {
+.collapsible-body > ul > li > .collapsible-header,
+.collapsible-body > ul > li > .collapsible-header > a
+{
    font-size: 13px !important;
    color: rgb(22, 34, 49) !important;
+   padding: 0px !important;
    font-family: 'Quicksand', sans-serif;
 }
 
@@ -140,9 +143,9 @@ ul.collapsible {
    margin: 0;
  }
 
-.collapsible-header {
+/*.collapsible-header {
    padding: 0px 10px !important;
-}
+}*/
 
 #slide-out {
    background-color: rgb(22, 34, 49);

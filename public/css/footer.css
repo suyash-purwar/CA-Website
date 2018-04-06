@@ -48,7 +48,7 @@
 .footer-content {
 	font-size: 14px;
 	font-family: 'Quicksand', sans-serif;
-	color: white;
+	color: white !important;
 }
 
 .footer-hr {

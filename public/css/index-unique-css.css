@@ -19,14 +19,14 @@
 .carousel1{
    background-attachment: fixed;
    background-image: url('../images/slideshow/a.jpg');
-   background-position: center center;
+   background-position: top center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .carousel2 {
    background-attachment: fixed;   
-   background-image: url('../images/slideshow/b.png');
+   background-image: url('../images/slideshow/b1.jpg');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -35,7 +35,7 @@
 .carousel3 {
    background-attachment: fixed;   
    background-image: url('../images/slideshow/c.jpg');
-   background-position: center center;
+   background-position: bottom center;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -215,9 +215,9 @@ img.underline {
 }
 
 .question {
+    text-align: center;
    font-size: 40px;
    font-family: 'Quicksand', sans-serif;
-   text-align: center;
    color: white;
 }
 
@@ -225,12 +225,11 @@ img.underline {
    font-size: 17px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color: white;
-   text-align: center;
 }
 
 /* Styles for our services */
 .services-super-parent {
-   background-image: url('../images/things/services-container-img.jpg');
+   background-image: url('../images/things/services-container-img.png');
    background-size: cover;
    background-position: center center;
    color: white;

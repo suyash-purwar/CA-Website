@@ -15,26 +15,6 @@
       belowOrigin: true,
       alignment: 'right'
     });
-
-    $('.services-subsection-2').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrain_width: false,
-      hover: true,
-      gutter: ($('.dropdown-content').width()*3)/2.5 + 5,
-      belowOrigin: true,
-      alignment: 'right'
-    });
-
-    $('.services-subsection-3').dropdown({
-      inDuration: 280,
-      outDuration: 225,
-      constrain_width: false, 
-      hover: true,
-      gutter: ($('.dropdown-content').width()*3)/2.5 + 5,
-      belowOrigin: true, 
-      alignment: 'right' 
-    });
 })()
 
 // For sidenav

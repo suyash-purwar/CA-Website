@@ -18,15 +18,15 @@
 
 .carousel1{
    background-attachment: fixed;
-   background-image: url('../images/slideshow/a.jpg');
-   background-position: top center;
+   background-image: url('../images/slideshow/v1.jpg');
+   background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .carousel2 {
    background-attachment: fixed;   
-   background-image: url('../images/slideshow/b1.jpg');
+   background-image: url('../images/slideshow/v2.jpg');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -34,11 +34,19 @@
 
 .carousel3 {
    background-attachment: fixed;   
-   background-image: url('../images/slideshow/c.jpg');
+   background-image: url('../images/slideshow/v3.jpg');
    background-position: bottom center;
    background-repeat: no-repeat;
    background-size: cover;
 }
+
+.carousel4 {
+    background-attachment: fixed;   
+    background-image: url('../images/slideshow/v4.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
 hr.carousel_hr {
    border-width: 1px;
@@ -50,14 +58,15 @@ hr.carousel_hr {
 .caption {
    width: 100vw;
    height: 100vh;
-   position: absolute;
-   z-index: 10;
+
+   background-color: #ffffff5b;
 }
 
 .caption > div {
    max-width: 960px;
    margin: 0 auto;
    height: initial;
+   
 }
 
 .carousel-text-head {
@@ -69,7 +78,7 @@ hr.carousel_hr {
 }
 
 .carousel-text-content {
-   color: rgb(22, 24, 49);
+   color: rgb(22, 34, 49);
    position: relative;
    font-size: 20px !important;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
@@ -256,7 +265,7 @@ img.underline {
 .services-container {
    display: grid;
    grid-template-columns: repeat(3, 4fr);
-   grid-gap: 15px;
+   grid-gap: 30px;
 }
 
 .service-number {
@@ -285,7 +294,7 @@ img.underline {
 
 .service-body {
    color: white;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 

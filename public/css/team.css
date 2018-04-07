@@ -5,7 +5,7 @@
 }
 
 .team-head {
-	font-size: 25px;
+	font-size: 27px;
 	color: rgb(22, 34, 49);
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
@@ -41,7 +41,8 @@
 }
 
 .team-member-name {
-	font-size: 25px;
+	font-weight: 650;
+	font-size: 20px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49);
 }

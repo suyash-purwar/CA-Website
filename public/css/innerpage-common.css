@@ -17,16 +17,18 @@
 	color: white;
 	text-align: center;
 	font-size: 60px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .page-position {
 	text-align:center;
 	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .home {
 	color: lightgrey;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media only screen and (max-width: 992px) {

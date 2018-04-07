@@ -7,13 +7,13 @@
 .team-head {
 	font-size: 25px;
 	color: rgb(22, 34, 49);
-	font-family: 'Quicksand';
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
 
 .team-content {
 	font-size: 17px;
-	font-family: calibri;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .team-member-container-1 {
@@ -42,13 +42,13 @@
 
 .team-member-name {
 	font-size: 25px;
-	font-family: 'Quicksand';
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49);
 }
 
 .team-member-about {
 	font-size: 17px;
-	font-family: Cambria;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49);
 }
 

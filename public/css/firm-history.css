@@ -9,7 +9,7 @@
 	font-size: 50px;
 	color: rgb(22, 34, 49);
 	text-align:center;
-	font-family: 'Quicksand';
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	line-height: 1px;
 }
 
@@ -53,13 +53,13 @@
 }
 
 .why-us-heading {
-	font-family: 'Quicksand';
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 27px;
 	color: white;
 }
 
 .why-us-content {
-	font-family: Calibri;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 18px;
 	color: white;
 }

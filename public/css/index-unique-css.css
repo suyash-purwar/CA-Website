@@ -64,7 +64,7 @@ hr.carousel_hr {
    color: rgb(22, 34, 49);
    position: relative;
    font-size: 70px !important;
-   font-family: 'Quicksand' !important;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
    line-height: 1px;
 }
 
@@ -72,7 +72,7 @@ hr.carousel_hr {
    color: rgb(22, 24, 49);
    position: relative;
    font-size: 20px !important;
-   font-family: 'Raleway' !important;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
 /* Styles for welcome content */
@@ -87,7 +87,7 @@ p.welcome-section-heading {
    font-size: 40px;
    line-height: 1px;
    color: rgb(22, 24, 49);
-   font-family: 'Raleway', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 img.underline {
@@ -137,7 +137,7 @@ img.underline {
 
 .quality-card-heading {
    font-size: 25px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .quality-card-description {
@@ -163,7 +163,7 @@ img.underline {
 
 .contact-option {
     font-size: 14px;
-   font-family: 'Quicksand', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Styles for Q/A Section */
@@ -180,7 +180,7 @@ img.underline {
 
 .QA-section-header {
    font-size: 40px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align: center;
    line-height: 1px;
    color: white
@@ -205,7 +205,7 @@ img.underline {
 
 .question-on-large-only {
    font-size: 40px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align: center;
    color: white;
 }
@@ -213,14 +213,14 @@ img.underline {
 .question-on-small-and-med {
    display: none;
    font-size: 40px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color: white; 
 }
 
 .question {
     text-align: center;
    font-size: 40px;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color: white;
 }
 
@@ -250,7 +250,7 @@ img.underline {
    line-height: 1px;
    font-size: 40px;
    text-align: center;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .services-container {
@@ -277,13 +277,15 @@ img.underline {
 }
 
 .service-header{
-   font-size: 18px;
-   font-family: 'Quicksand', sans-serif;
+   font-size: 22px;
+   line-height: 1px;
+   font-weight: 100px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .service-body {
    color: white;
-   font-size: 16px;
+   font-size: 17px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
@@ -306,7 +308,7 @@ img.underline {
 }
 
 .map-header {
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 40px;
    line-height: 1px;
 }
@@ -323,16 +325,16 @@ img.underline {
 }
 
 .map-address {
-   font-size: 16px;
-   font-family: 'Quicksand', sans-serif;
+   font-size: 17px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align: center;
 }
 
 .map-address-header {
-   font-size: 19px;
+   font-size: 20px;
    color: grey;
    text-align: center;
-   font-family: 'Quicksand', sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*html, body {

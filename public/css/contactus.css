@@ -18,7 +18,7 @@
 
 .contactus-header {
 	color: rgb(22, 34, 40);
-	font-family: 'Quicksand', sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 40px;
 	text-align: center;
 	line-height: 1px;
@@ -26,14 +26,14 @@
 
 .contactus-subtext {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: rgb(22, 34, 49);
 	font-style: italic;
 	text-align: center;
 }
 
 .input-field input, .materialize-textarea {
-	font-family: 'Quicksand', 'sans-serif';
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 17px;
 	color: rgb(22, 34, 49);
 }
@@ -63,12 +63,12 @@
 
 .input-field label {
 	font-size: 17px;
-	font-family:'Quicksand', sans-serif;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49) !important;
 }
 
 .input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49) !important;
 	font-size: 19px;
 }

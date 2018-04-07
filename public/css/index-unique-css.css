@@ -97,6 +97,7 @@ img.underline {
 
 .welcome-section-content {
    font-size: 18px;
+   text-align: justify;
    color: black;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -142,6 +143,8 @@ img.underline {
 .quality-card-description {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 18px;
+   text-align: justify;
+   padding: 0px 4px;
 }
 
 /* Styles for contact options */

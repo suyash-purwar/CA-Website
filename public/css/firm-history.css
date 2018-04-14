@@ -27,7 +27,8 @@
 	color: rgb(22, 34, 49);
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 17px;
-	text-align: center
+	text-align: center;
+	padding: 0 10px;
 }
 
 .why-us-container-wrapper {
@@ -59,7 +60,26 @@
 }
 
 .why-us-content {
+	padding: 0 10px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 17px;
 	color: white;
+}
+
+@media only screen and (max-width: 760px) {
+	.our-intro-head {
+		line-height: 10px;
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.our-intro-head {
+		font-size: 35px;
+		line-height: 5px;
+	}
+
+	.our-intro-subtext {
+		font-size: 16px;
+	}
 }

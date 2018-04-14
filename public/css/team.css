@@ -50,6 +50,7 @@
 }
 
 .team-member-about {
+	text-align: justify;
 	font-size: 17px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(22, 34, 49);

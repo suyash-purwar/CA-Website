@@ -40,9 +40,9 @@ function navbarViewEngineForLargeScreens() {
 }
 
 function navbarViewEngineForSmallScreens() {
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     $('#small-screen-nav').css('background-color', 'rgb(22, 34, 49)');
   } else {
-    $('#small-screen-nav').css('background-color', 'transparent');
+    $('#small-screen-nav').css('background-color', 'rgba(128, 128, 128, 0.39)');
   }
 }

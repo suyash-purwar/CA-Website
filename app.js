@@ -56,8 +56,7 @@ app.post('/send', (req, res) => {
       if (err) {
          console.log(err);
       } else {
-         console.log('Email Sent');
-         console.log(res);
+			console.log('Email is sent')
       }
    });
 });

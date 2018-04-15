@@ -1,5 +1,7 @@
+// Initialization for scrollreveal plugin
 window.sr = ScrollReveal({reset: true});
 
+// Code for carousel
 (function () {
    $('.carousel.carousel-slider').carousel({
       fullWidth: true,
@@ -13,6 +15,7 @@ window.sr = ScrollReveal({reset: true});
    setInterval(next, 10000);
 })();
 
+// Code for dropdown button in nav
 (function() {
    $('.dropdown-button').dropdown({
       stopPropagating: false,
@@ -34,6 +37,7 @@ window.sr = ScrollReveal({reset: true});
 })()
 
 // For sidenav
+// Code for side nav to show up on dragging or clicking
 $('.button-collapse').sideNav({
   menuWidth: 250,
   edge: 'right',
@@ -62,6 +66,8 @@ function navbarViewEngineForSmallScreens() {
   }
 }
 
+// These animations are only applied on home page
+// These animations are made with scrollreveal plugin
 // For animations
 sr.reveal('.welcome-section', {
   duration: 2000,

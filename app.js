@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const exphbs = require("express-handlebars");
 const path = require("path");
 const nodemailer = require("nodemailer");
+var Pusher = require('pusher');
 
 const app = express();
 // Port Num
@@ -15,11 +16,20 @@ app.use(express.static(__dirname + '/public'))
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
+// Authenticating user
+var pusher = new Pusher({
+  appId: '509389',
+  key: '938beaa35cae32bebd96',
+  secret: '92a72a2b2efad3138d02',
+  cluster: 'ap2',
+  encrypted: true
+});
+
 app.get('/', (req, res) => {
    res.sendFile('index.html', {root: path.join(__dirname + "/public/html")});
-})
+});
 
-app.post('/send', (req, res) => {
+app.post('/contactus_send', (req, res) => {
    const smtp = nodemailer.createTransport({
       host: "smtp.ethereal.email",
       port: 587,
@@ -37,7 +47,7 @@ app.post('/send', (req, res) => {
       <h3>Contact Details</h3>
       <ul>
             <li>Name: ${req.body.name}</li>
-            <li>Contact No: ${req.body.phone_no}</li>
+            <li>Contact No: ${req.body.phone}</li>
             <li>Email: ${req.body.email}/li>
       </ul>
 
@@ -54,9 +64,11 @@ app.post('/send', (req, res) => {
 
    smtp.sendMail(mailOptions, (err, res) => {
       if (err) {
-         console.log(err);
+        console.log(err);
       } else {
-			console.log('Email is sent')
+        pusher.trigger('contactus-channel', 'contactus-send', {
+           message: "You've suceessfully reached us! We will contact you soon."
+        })
       }
    });
 });
@@ -64,4 +76,4 @@ app.post('/send', (req, res) => {
 // Setting up port
 app.listen(port, () => {
    console.log(`Server is up on port ${port}`);
-})
+});

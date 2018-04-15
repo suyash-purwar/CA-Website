@@ -1,3 +1,4 @@
+// Code for dropdowns in nav
 (function() {
    $('.dropdown-button').dropdown({
       stopPropagating: false,

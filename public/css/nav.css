@@ -103,6 +103,9 @@ ul#slide-out li:nth-child(1) {
 ul.collapsible {
    border: none !important;
 }
+.collapsible > li > div > a {
+   padding: 0;
+}
 
 .collapsible-header {
    font-size: 17px;

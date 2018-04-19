@@ -52,14 +52,14 @@ hr.carousel_hr {
    border-width: 1px;
    width:120px;
    line-height: 1px;
-   border-color: rgb(22, 24, 49);
+   border-color: white;
 }
 
 .caption {
    width: 100vw;
    height: 100vh;
 
-   background-color: #ffffff5b;
+   background-color: #0000009a;
 }
 
 .caption > div {
@@ -70,7 +70,7 @@ hr.carousel_hr {
 }
 
 .carousel-text-head {
-   color: rgb(22, 34, 49);
+   color: white;
    position: relative;
    font-size: 70px !important;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
@@ -78,8 +78,9 @@ hr.carousel_hr {
 }
 
 .carousel-text-content {
-   color: rgb(22, 34, 49);
+   color: white;
    position: relative;
+   font-style: italic;
    font-size: 20px !important;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }

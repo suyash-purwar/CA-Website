@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>LT & ASSOCIATES, Chartered Accountants</title>
+   <meta charset = "utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style type = "text/css">
+        /* This is the css which is common in each page of a website */
+        /* Changes in this css files will show effects in each page of a website */
+
+        @import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+        body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+        }
+
+        a {
+        color: inherit !important;
+        }
+
+        @keyframes top {
+        from {
+            top: -30px;
+        } 
+        
+        to {
+            top: 0px;
+        }
+        }
+
+        hr.stylish-hr-white {
+        border-color: white;
+        width: 80px;
+        color: white;
+        }
+
+        hr.stylish-hr-blue {
+        border-color: rgb(22, 34, 49);
+        width: 80px;
+
+        /*background-color: rgb(22, 34, 49)*/
+        }
+
+        p.sub-text {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: grey;
+        line-height: 1px;
+        text-align: center;
+        }
+
+        .sharing-container {
+            padding: 20px 0px;
+            background: rgb(22, 34, 49)
+        }
+
+        .facebook, .facebook:hover {
+            background-color: #3B5998 !important;
+            color: white;
+        }
+
+        .google, .google:hover {
+            background-color: #DB4437 !important;
+            color: white;
+        }
+
+        .twitter, .twitter:hover {
+            background-color: #1DA1F2 !important;
+            color: white;
+        }
+
+        .linkedin, .linkedin:hover {
+            background-color: #0077b5 !important;
+            color: white;
+        }
+
+        .whatsapp, .whatsapp:hover {
+            background-color: #25D366 !important;
+            color: white
+        }
+
+        .facebook > i,
+        .google > i,
+        .twitter > i,
+        .linkedin > i,
+        .whatsapp > i{
+            font-size: 15px !important;
+        }
+
+        button {
+            background-color: rgb(22, 34, 49) !important;
+            transition: 1s;
+            text-align: center;
+            font-family: 'Quicksand'!important;
+        }
+
+
+        button:hover {
+            padding:0px 40px;
+        }
+
+   </style>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+    <link rel = "stylesheet" href = "/css/nav.css">
+    <link rel = "stylesheet" href = "/css/footer.css">
+    <link rel = "stylesheet" href = "/css/innerpage-common.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ac4f51b003b52001341b3d4&product=custom-share-buttons"></script>
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+   
+    <!--[if lt IE 9]>
+	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav id = "large-screen-nav" class = "hide-on-med-and-down">
+        <div class = "nav-wrapper">
+            <a href = "html/index.html" class = "firm-name">
+                <img src = "../images/logos/1.png" class = "firm-logo">
+            </a>
+            <ul id = "nav-mobile" class = "right">
+                <li class = "waves-effect waves-light">
+                    <a href = "#">Home</a>
+                </li>  
+
+                <li>
+                    <a class = "waves-effect waves-light dropdown-button" data-contrainwidth = "false" data-alignment="right" data-gutter = "30" data-beloworigin = "true" href = "#!" data-activates = "aboutus">About Us</a>
+                </li>
+
+                <li>
+                    <a class = "waves-effect waves-light dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "services" href = "#!">Services</a>
+                </li>
+
+                <li class = "waves-effect waves-light">
+                    <a href = "#">News</a>
+                </li>
+
+                <li class = "waves-effect waves-light">
+                    <a href = "#">Careers</a>
+                </li>
+
+                <li class = "waves-effect waves-light">
+                    <a href = "#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Dropdown for ABOUT US -->
+    <ul id="aboutus" class = "dropdown-content">
+        <li class = "waves-effect waves-light"><a href = "/html/aboutus/team.html">Our Team</a></li>
+        <li class = "waves-effect waves-light"><a href = "/html/aboutus/ethos.html">Our Ethos</a></li>
+        <li class = "waves-effect waves-light"><a href = "/html/aboutus/firm-history.html">About the Firm</a></li>
+    </ul>
+    
+    <!-- Dropdown for SERVICES -->
+    <ul id="services" class = "dropdown-content">
+        <li><a href = "/html/services/corporate-services.html">Corporate Services</a></li>
+        <li><a href = "/html/services/audit-assurance.html">Audit & Assurance Services</a></li>
+        <li><a href = "/html/services/bookkeeping-outsourcing.html">Book Keeping & Outsourcing Services</a></li>
+        <li><a href = "/html/services/risk-advisory-services.html" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates = "services-subsection-1">Taxation</a></li>
+        <li><a href = "/html/services/risk-advisory-services.html">Risk Advisory Services</a></li>
+        <li><a href = "/html/services/other-services.html">Other Services</a></li>
+    </ul>
+
+    <!-- Dropdown for sub-sections in SERVICES dropdown -->
+    <ul id="services-subsection-1" class="dropdown-content">
+        <li class = "waves-effect waves-light"><a href="/html/services/direct-taxation.html">Direct Taxation</a></li>
+        <li class = "waves-effect waves-light"><a href="/html/services/indirect-taxation.html">Indirect Taxation</a></li>
+    </ul>
+
+    <!-- Nav bar for small and medium sized screens -->
+    <ul id = "slide-out" class = "collapsible side-nav" data-collapsible = "accordion">
+        <li>
+            <img src = "../images/logos/1.png" class = "firm-logo-sidenav">
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">home</i> Home
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header" data-collapsible = "accordion"><i class = "material-icons sidenav-icons left">group</i> About Us</div>
+            <div class = "collapsible-body">
+                <ul>
+                    <li><a href = "/html/aboutus/team.html">Our Team</a></li>
+                    <li><a href = "/html/aboutus/ethos.html">Our Ethos</a></li>
+                    <li><a href = "/html/aboutus/firm-history.html">About the Firm</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header"><i class = "material-icons sidenav-icons left">star</i> Services</div>
+            <div class = "collapsible-body collapsible">
+                <ul class = "collapsible" data-collapsible = "accordion">
+
+                    <li>
+                        <div class = "collapsible-header" style = "color: black !important">
+                            <a href = "/html/services/corporate-services.html">Corporate Services</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">
+                            <a href = "/html/services/audit-assurance.html">Audit & Assurance Services</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">
+                            <a href = "/html/services/bookkeeping-outsourcing.html">Book Keeping & Outsourcing Services</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">Taxation <i class = "material-icons mobile-nav-icons right">chevron_right</i></div>
+                        <div class = "collapsible-body">
+                            <ul>
+                                <li><a href="/html/services/direct-taxation.html">Direct Taxation</a></li>
+                                <li><a href="/html/services/indirect-taxation.html">Indirect Taxation</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "collapsible-header">
+                            <a href = "/html/services/risk-advisory-services.html">Risk Advisory Services</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">notifications</i> News
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">business_center</i> Careers
+            </div>
+        </li>
+        <li>
+            <div class = "collapsible-header">
+                <i class = "material-icons sidenav-icons left">call</i> Contact
+            </div>
+        </li>
+    </ul>
+
+    <!-- Trigger button for sidenav -->
+    <nav id = "small-screen-nav" class="hide-on-large-only">
+        <div class = "nav-wrapper">
+            <ul id = "nav-mobile">
+                <li>
+                    <a href="#" data-activates="slide-out" class = "button-collapse"><i class="material-icons">menu</i></a>
+                </li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-facebook"></i></li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-linkedin"></i></li>
+                <li class = "right sidenav-follow-links"><i class = "fa fa-twitter"></i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sub nav -->
+    <!-- This is only visible in large screens -->
+    <nav id = "sub-nav" class = "hide-on-med-and-down">
+        <div class = "nav-wrapper">
+            <ul id = "nav-mobile">
+                <li>
+                    <i class = "material-icons left">call</i>9717891049 <span style = "color: darkgrey">/</span> 9716616952
+                </li>
+                
+                <li>
+                    <span class = "slash"> / </span>
+                </li>
+
+                <li>
+                    <i class = "left material-icons"> email</i>ltassociates@outlook.in
+                </li>
+
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-facebook"></i></li>
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-linkedin"></i></li>
+                <li class = "right sub-nav-follow-links"><i class = "fa fa-twitter"></i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class = "intro-container valign-wrapper">
+         <div class = "intro-container-wrapper valign-wrapper">
+             <div style = "width: 100%">
+                 <p class = "page-heading">News</p>
+                 <p class = "page-position">
+                     <span class = "home"><a href = "../html/index.html">Home</a></span>
+                     <span class = "forward-slash"> / </span>
+                     <span class = "current-page"><a href = "../html/news.html">News</a></span>
+                 </p>
+             </div>
+         </div>
+     </div>
+
+    <div class = "footer-container">
+        <div class = "footer-wrapper">
+            <div class = "footer-content">
+                <p class = "footer-header">About Us</p>
+                <hr class = "footer-hr left">
+
+                <br>
+                <p><a href = "aboutus/team.html" class = "footer-content">Our Team</a></p>
+                <p><a href = "aboutus/ethos.html" class = "footer-content">Our Ethos</a></p>
+                <p><a href = "aboutus/firm-history.html" class = "footer-content">About the Firm</a></p>
+            </div>
+
+            <div>
+                <p class = "footer-header">Services</p>
+                <hr class = "footer-hr">
+
+                <br>
+
+                <p><a href = "services/corporate-services.html" class = "footer-content">Corporate Services</a></p>
+                <p><a href = "services/audit-assurance.html" class = "footer-content">Audit & Assurance Services</a></p>
+                <p><a href = "services/direct-taxation.html" class = "footer-content">Direct Taxation</a></p>
+                <p><a href = "services/indirect-taxation.html" class = "footer-content">Indirect Taxation</a></p>
+                <p><a href = "services/risk-advisory-services.html" class = "footer-content">Risk Advisory Services</a></p>
+                <p><a href = "services/bookkeeping-outsourcing.html" class = "footer-content">Bookkeeping & Outsourcing</a></p>
+            </div>
+
+            <div>
+                <p class = "footer-header">Useful Resources</p>
+                <hr class = "footer-hr">
+
+                <br>
+
+                <p><a class = "footer-content" href = "http://www.mca.gov.in/">Ministry of Corporate Affairs</a></p>
+                <p><a class = "footer-content" href = "https://www.incometaxindia.gov.in">Income Tax</a></p>
+
+                <p><a class = "footer-content" href = "https://www.rbi.org.in/">Reserve Bank of India</a></p>
+                
+                <p><a class = "footer-content" href = "http://dgft.gov.in/">Directorate General of Foreign Trade</a></p>
+                <p><a class = "footer-content" href = "http://www.cbec.gov.in/">Central Board of Excise and Customs</a></p>
+            </div>
+            
+            <div>
+                <p class = "footer-header">Contact Information</p>
+                <hr class = "footer-hr">
+
+                <br>
+
+                <p class = "footer-content">Head Office: ||| F1/7 Nehru Nagar, Rakesh Marg, Ghaziabad - 201001</p>
+                <p class = "footer-content">Branch Office: Gali No. 3 Khatkahata Baba Colony, Etawah - 206001</p>
+                <p class = "footer-content">Email: ltassociates@outlook.in</p>
+                <p class = "footer-content">Phone: 9717891049 / 9716616952</p>
+            </div>
+
+            <div>
+                <p class = "footer-content"><span style = "font-size: 18px;">&copy;</span> LT & ASSOCIATES,  All rights reserved</p>
+            </div> 
+
+            <div class = "valign-wrapper">
+                <div style = "display:block; margin:0 auto">
+                    <i class = "center fa fa-facebook footer-follow-icons"></i>
+                    <i class = "center fa fa-twitter footer-follow-icons"></i>
+                    <i class = "center fa fa-linkedin footer-follow-icons"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src = "/js/indexpage.js"></script>
+    <script src = "/js/backend.js"></script>
+
+</body>
+</html>
